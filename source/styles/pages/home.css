@@ -2,3 +2,6 @@
  * Pages - Home
  **************
  */
+.page-home .section > .container > .title {
+  font-size: 28px;
+}

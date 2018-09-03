@@ -2,3 +2,8 @@
  * Modules - Layout #1's Header
  ******************************
  */
+#header .container #header__logo {
+  background-image: url('../../assets/images/logo.png');
+  background-size: auto 71px;
+  background-repeat: no-repeat;
+}
