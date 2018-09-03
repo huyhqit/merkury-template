@@ -6,4 +6,35 @@
 #footer{}
 
 #footer{
+    height: 96px;
+    background-color: @bunting-color;
+    color: @white-color;
+    .container{
+        line-height: 100px;
+        #footer__copyright{
+            .pull-left;
+        }
+        #footer__menu{
+            .pull-right;
+            ul{
+                list-style-type: none;
+                li {
+                    .pull-left;
+                    margin-left: 30px;
+                    a{
+                        color: @white-color;
+                        &:hover{
+                            text-decoration: none;
+                        }
+                        &.social{
+                            margin-left: 13px;
+                            &.last-child{
+                                margin-left: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
