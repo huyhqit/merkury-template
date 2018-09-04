@@ -12,8 +12,7 @@
                 <div class="thumbnail"><img src='../../assets/images/pages/home/section_1__item1.png' alt=''></div>
                 <div class="title">Manage Your Workflow</div>
                 <div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                     ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-                     laboris nisi ut aliquip ex ea commodo consequat.
+                     ut labore et dolore magna aliqua. Ut
                 </div>
                 <div class="actions">
                     <a href="#" class="button" id="section_1__item1__button">See more</a>
@@ -24,8 +23,7 @@
                 <div class="thumbnail"><img src='../../assets/images/pages/home/section_1__item2.png' alt=''></div>
                 <div class="title">Analytics & Insights</div>
                 <div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-                        laboris nisi ut aliquip ex ea commodo consequat.
+                        ut labore et dolore magna aliqua.
                 </div>
                 <div class="actions">
                     <a href="#" class="button" id="section_1__item2__button">See more</a>
@@ -36,8 +34,7 @@
                 <div class="thumbnail"><img src='../../assets/images/pages/home/section_1__item3.png' alt=''></div>
                 <div class="title">Organize Your Deadlines</div>
                 <div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-                        laboris nisi ut aliquip ex ea commodo consequat.
+                        ut labore et dolore magna aliqua.
                 </div>
                 <div class="actions">
                     <a href="#" class="button" id="section_1__item3__button">See more</a>

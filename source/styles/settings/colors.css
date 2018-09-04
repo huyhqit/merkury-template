@@ -2,3 +2,12 @@
  * Settings - Colors
  *******************
  */
+.text-white {
+  color: #FFFFFF;
+}
+.text-black {
+  color: #000000;
+}
+.background-biscay {
+  background-color: #1D3162 !important;
+}

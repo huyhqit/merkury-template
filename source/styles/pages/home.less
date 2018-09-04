@@ -22,14 +22,51 @@
       >.container{
         >.title{
           .text-center;
-          font-size: 60px;
+          font-size: 39px;
         }
       }
     }
   }
   #section_1 {
-    .container {
+    height: 465px;
+    .text-center;
+    padding: 166px 0;
 
+    >.container {
+      >.list{
+        .row;
+
+        >.item {
+          .make-md-column(4);
+          
+          >.thumbnail{
+            img {
+              height: 50px;
+              width: auto;
+            }
+          }
+          >.title{
+            font-weight: bold;
+            margin-top: 42px;
+          }
+          >.description{
+            margin: 23px 0;
+          }
+          >.actions{
+              width: 160px;
+              height: 32px;
+              display: inline-block;
+              margin: 35px 0;
+              border: 2px solid @mytic-color;
+              border-radius: 12px;
+              >.button{
+                text-decoration: none;
+                .text-black;
+                line-height: 25px;
+              }
+          }
+        }
+      }
     }
   }
 
