@@ -139,35 +139,40 @@
 <div class="section" id="section_5">
     <div class="container">
         <div class="title">Check our pricing!</div>
-        <div class="item" id="section_5__card_1">
-            <div class="title">BRONZE PLAN</div>
-            <div class="pricing">$19/mon</div>
-            <div class="right_iconn">Lorem ipsum dolor sit am</div>
-            <div class="right_iconn">Lorem ipsum dolor sit am</div>
-            <div class="false_iconn">Lorem ipsum dolor sit am</div>
-            <div class="false_iconn">Lorem ipsum dolor sit am</div>
-        </div>
-        <div class="item" id="section_5__card_1">
-            <div class="title">SILVER PLAN</div>
-            <div class="pricing">$49/mon</div>
-            <div class="right_iconn">Lorem ipsum dolor sit am</div>
-            <div class="right_iconn">Lorem ipsum dolor sit am</div>
-            <div class="false_iconn">Lorem ipsum dolor sit am</div>
-            <div class="false_iconn">Lorem ipsum dolor sit am</div>
-        </div>
-        <div class="item" id="section_5__card_1">
-            <div class="title">GOLD PLAN</div>
-            <div class="pricing">$99/mon</div>
-            <div class="right_iconn">Lorem ipsum dolor sit am</div>
-            <div class="right_iconn">Lorem ipsum dolor sit am</div>
-            <div class="false_iconn">Lorem ipsum dolor sit am</div>
-            <div class="false_iconn">Lorem ipsum dolor sit am</div>
+        <div class="list">
+            <div class="item" id="section_5__card_1">
+                <div class="title">BRONZE PLAN</div>
+                <div class="pricing">$19/mon</div>
+                <div class="right_iconn">Lorem ipsum dolor sit am</div>
+                <div class="right_iconn">Lorem ipsum dolor sit am</div>
+                <div class="false_iconn">Lorem ipsum dolor sit am</div>
+                <div class="false_iconn">Lorem ipsum dolor sit am</div>
+            </div>
+            <div class="item" id="section_5__card_1">
+                <div class="title">SILVER PLAN</div>
+                <div class="pricing">$49/mon</div>
+                <div class="right_iconn">Lorem ipsum dolor sit am</div>
+                <div class="right_iconn">Lorem ipsum dolor sit am</div>
+                <div class="false_iconn">Lorem ipsum dolor sit am</div>
+                <div class="false_iconn">Lorem ipsum dolor sit am</div>
+            </div>
+            <div class="item" id="section_5__card_1">
+                <div class="title">GOLD PLAN</div>
+                <div class="pricing">$99/mon</div>
+                <div class="right_iconn">Lorem ipsum dolor sit am</div>
+                <div class="right_iconn">Lorem ipsum dolor sit am</div>
+                <div class="false_iconn">Lorem ipsum dolor sit am</div>
+                <div class="false_iconn">Lorem ipsum dolor sit am</div>
+            </div>
         </div>
         <div class="text" id="section_5__description">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            <br>
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
         </div>
-        <div class="button" id="section_5__button">Join now!</div>
+        <div id="section_5__button">
+            <a class="button" href="#">Join now!</a>
+        </div>
     </div>
 </div>
 {% endblock %}
