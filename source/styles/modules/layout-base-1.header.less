@@ -11,12 +11,14 @@
 }
 
 #header{
+    background-image: url('@{image-uri-base}/pages/home/header__background.png');
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
   .container{
     .clearfix;
     padding: 43px 0;
     height: 695px;
-    background-image: url('@{image-uri-base}/pages/home/header__background.png');
-    background-size: auto 100%;
     >.top {
       height: 43px;
       margin: 0 100px;
@@ -36,6 +38,7 @@
         .pull-right;
         a{
           .text-white;
+          .font-roboto-regular;
           line-height: 32px;
           padding: 10px 26px;
           &:hover {
@@ -62,10 +65,12 @@
       .title {
         font-size: 39px;
         .text-white;
+        .font-roboto-thin;
       }
       #header__body__text{
         font-size: 23px;
         .text-white;
+        .font-roboto-regular;
         // margin-bottom: 56px;
       }
       a {
@@ -75,6 +80,7 @@
         text-decoration: none;
         background-color: @dodger-color;
         .text-white;
+        .font-roboto-bold;
         &.button {
           border: 2px solid @azure-color;
           border-radius: 32px;

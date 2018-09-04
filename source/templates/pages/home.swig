@@ -48,17 +48,23 @@
     <div class="container">
         <div class="list">
             <div class="title">All You need is a browser!</div>
-            <div class="text1">Lorem ipsum dolor sit amet, 
-                consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            <div class="text" id="section_2__text_1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
+            <br>
+            tempor incididunt ut labore et dolore magna aliqua.
             </div>
-            <div class="text2">
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
+            <div class="text" id="section_2__text_2">
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                <br>
                 ut aliquip ex ea commodo consequat.
             </div>
-            <div class="label1"><span class="icon" id="section2__icon1">icon1</span>
+            <div class="lb"><span class="icon" id="section_2__lb__icon_1">
+                <i class="fa fa-check-circle"></i>
+            </span>
                 Lorem ipsum dolor sit amet consectetur
             </div>
-            <div class="label2"><span class="icon" id="section2__icon2">icon2</span>
+            <div class="lb"><span class="icon" id="section2__lb__icon_2">
+                <i class="fa fa-check-circle"></i>
+            </span>
                 Ut enim ad minim veniam quis nostrud
             </div>
             
@@ -67,41 +73,34 @@
             <img src='../../assets/images/pages/home/section_2__image.png' alt=''>
         </div>
     </div>
+    
 </div>
 
 <div class="section" id="section_3">
     <div class="container">
-        <div id="section_3__task">
-            <div id="section_3__task__col_1">
-                <div class="title">In Progress (3)</div>
-                <div class="item" id="section_3__task__col_1__item_1"></div>
-                <div class="item" id="section_3__task__col_1__item_2"></div>
-                <div class="item" id="section_3__task__col_1__item_3"></div>
+        <div class="list">
+            <div class="column" id="section_3__task">
+                    <img src='../../assets/images/pages/home/section_3__task.png' alt=''>
             </div>
-            <div id="section_3__task__col_2">
-                <div class="title">Completed (2)</div>
-                <div class="item" id="section_3__task__col_2__item_1"></div>
-                <div class="item" id="section_3__task__col_2__item_2"></div>
-                <div class="item" id="section_3__task__col_2__item_3"></div>
-            </div>
-        </div>
-        <div id="section_3__text">
-            <div class="title">Drag & Drop</div>
-            <div id="section_3__text__description_1">Lorem ipsum dolor sit amet,
-                 consectetur adipisicing elit, sed do eiusmod tempor incididunt 
-                 ut labore et dolore magna aliqua.
-            </div>
-            <div id="section_3__text__description_2">Ut enim ad minim veniam,
-                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-                ea commodo consequat.
-            </div>
-            <div id="section_3__text__icon_1">
-                icon1
-            </div>
-            <div id="section_3__text_icon_2">
-                icon2
+            <div class="column" id="section_3__text">
+                <div class="title">Drag & Drop</div>
+                <div id="section_3__text__description_1">Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit, sed do
+                    <br>
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </div>
+                <div id="section_3__text__description_2">Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco
+                    <br>
+                    laboris nisi ut aliquip ex ea commodo consequat.
+                </div>
+                <div id="section_3__text__icon">
+                    <span><i class="fa fa-chevron-circle-left"></i></span>
+                    <span><i class="fa fa-chevron-circle-right"></i></span>
+                </div>
             </div>
         </div>
+        <img src='../../assets/images/pages/home/section_3__line.png' alt=''>
     </div>
 </div>
 
@@ -110,19 +109,29 @@
         <div class="title">Powerfull PSD Template</div>
         <div class="description">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                <br>
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
         </div>
-        <div id="section_4__text_1">
+        <div class="feature-template" id="section_4__text_1">
             <div class="title">Clean & modern layout</div>
+            <div id="section_4__text_1__line">
+                <img src='../../assets/images/pages/home/section_4__line_left.png' alt="">
+            </div>
             <div class="description">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
             </div>
         </div>
-        <div id="section_4__text_1">
+        <div class="feature-template" id="section_4__text_2">
             <div class="title">Easy to customize</div>
-            <div class="description">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            <div id="section_4__text_2__line">
+                <img src='../../assets/images/pages/home/section_4__line_right.png' alt=''>
             </div>
+            <div class="description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+            </div>
+        </div>
+        <div id="section_4__picture">
+            <img src='../../assets/images/pages/home/section_4__item_1.png' alt=''>
         </div>
     </div>
 </div>

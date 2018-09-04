@@ -8,6 +8,9 @@
 .text-black {
   color: #000000;
 }
+.background-white {
+  background-color: #FFFFFF !important;
+}
 .background-biscay {
   background-color: #1D3162 !important;
 }

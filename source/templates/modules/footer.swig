@@ -12,11 +12,11 @@
                 <li class="item text" id="footer__menu__item3">
                    <a href="#">Contact</a></li>
                 <li class="item text" id="footer__menu__item4">
-                   <a href="#">Facebook</a></li>
+                   <a href="#"><i class="fa fa-facebook"></i></a></li>
                 <li class="item text" id="footer__menu__item5">
-                   <a href="#">Twitter</a></li>
+                   <a href="#"><i class="fa fa-twitter"></i></a></li>
                 <li class="item text" id="footer__menu__item6">
-                   <a href="#">Google_plus</a></li>
+                   <a href="#"><i class="fa fa-google-plus"></i></a></li>
             </ul>
         </div>
     </div>
