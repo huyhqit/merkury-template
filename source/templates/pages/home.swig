@@ -87,12 +87,12 @@
             </div>
             <div class="column" id="section_3__text">
                 <div class="title">Drag & Drop</div>
-                <div id="section_3__text__description_1">Lorem ipsum dolor sit amet,
+                <div class="text" id="section_3__text__description_1">Lorem ipsum dolor sit amet,
                     consectetur adipisicing elit, sed do
                     <br>
                     eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </div>
-                <div id="section_3__text__description_2">Ut enim ad minim veniam,
+                <div class="text" id="section_3__text__description_2">Ut enim ad minim veniam,
                     quis nostrud exercitation ullamco
                     <br>
                     laboris nisi ut aliquip ex ea commodo consequat.
