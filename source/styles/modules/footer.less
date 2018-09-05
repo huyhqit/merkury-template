@@ -11,27 +11,36 @@
     .text-white;
     .font-roboto-regular;   
     .container{
-        line-height: 100px;
+        line-height: 99px;
+        font-size: 12px;
         #footer__copyright{
             .pull-left;
+            margin-left: 107px;
+            letter-spacing: -0.4px;
         }
         #footer__menu{
             .pull-right;
+            margin-right: 65px;
             ul{
                 list-style-type: none;
                 li {
                     .pull-left;
-                    margin-left: 30px;
                     a{
                         .text-white;
                         &:hover{
                             text-decoration: none;
                         }
-                        &.social{
-                            margin-left: 13px;
-                            &.last-child{
-                                margin-left: 0;
-                            }
+                    }
+                    &.text{
+                        margin-right: 30px;
+                        &#footer__menu__item3{
+                            margin-right: 15px;
+                        }
+                    }
+                    &.social{
+                        margin-left: 13px;
+                        &:last-child{
+                            margin-right: 36px;
                         }
                     }
                 }

@@ -148,14 +148,16 @@
                 <div class="text">
                     <div class="title">BRONZE PLAN</div>
                     <div class="pricing"><span><span>$</span>19</span>/mon</div>
-                    <div class="icon right_icon"><i class="fa fa-check-circle"></i>
-                        <span>Lorem ipsum dolor sit am</span></div>
-                    <div class="icon right_icon"><i class="fa fa-check-circle"></i>
-                        <span>Lorem ipsum dolor sit am</span></div>
-                    <div class="icon false_icon"><i class="fa fa-times-circle"></i>
-                        <span>Lorem ipsum dolor sit am</span></div>
-                    <div class="icon false_icon"><i class="fa fa-times-circle"></i>
-                        <span>Lorem ipsum dolor sit am</span></div>
+                    <div class="list">
+                        <div class="icon right_icon"><i class="fa fa-check-circle"></i>
+                            <span>Lorem ipsum dolor sit am</span></div>
+                        <div class="icon right_icon"><i class="fa fa-check-circle"></i>
+                            <span>Lorem ipsum dolor sit am</span></div>
+                        <div class="icon false_icon"><i class="fa fa-times-circle"></i>
+                            <span>Lorem ipsum dolor sit am</span></div>
+                        <div class="icon false_icon"><i class="fa fa-times-circle"></i>
+                            <span>Lorem ipsum dolor sit am</span></div>
+                    </div>
                 </div>
             </div>
             <div class="item" id="section_5__card_2">
@@ -163,29 +165,33 @@
                 <div class="text">
                     <div class="title">SILVER PLAN</div>
                     <div class="pricing"><span><span>$</span>49</span>/mon</div>
-                    <div class="icon right_icon"><i class="fa fa-check-circle"></i>
-                        <span>Lorem ipsum dolor sit am</span></div>
-                    <div class="icon right_icon"><i class="fa fa-check-circle"></i>
-                        <span>Lorem ipsum dolor sit am</span></div>
-                    <div class="icon right_icon"><i class="fa fa-check-circle"></i>
-                        <span>Lorem ipsum dolor sit am</span></div>
-                    <div class="icon false_icon"><i class="fa fa-times-circle"></i>
-                        <span>Lorem ipsum dolor sit am</span></div>
+                    <div class="list">
+                        <div class="icon right_icon"><i class="fa fa-check-circle"></i>
+                            <span>Lorem ipsum dolor sit am</span></div>
+                        <div class="icon right_icon"><i class="fa fa-check-circle"></i>
+                            <span>Lorem ipsum dolor sit am</span></div>
+                        <div class="icon right_icon"><i class="fa fa-check-circle"></i>
+                            <span>Lorem ipsum dolor sit am</span></div>
+                        <div class="icon false_icon"><i class="fa fa-times-circle"></i>
+                            <span>Lorem ipsum dolor sit am</span></div>
+                    </div>
                 </div>
             </div>
-            <div class="item" id="section_5__card_2">
+            <div class="item" id="section_5__card_3">
                 <img src='../../assets/images/pages/home/section_5__card.png' alt=''>
                 <div class="text">
                     <div class="title">GOLD PLAN</div>
                     <div class="pricing"><span><span>$</span>99</span>/mon</div>
-                    <div class="icon right_icon"><i class="fa fa-check-circle"></i>
-                        <span>Lorem ipsum dolor sit am</span></div>
-                    <div class="icon right_icon"><i class="fa fa-check-circle"></i>
-                        <span>Lorem ipsum dolor sit am</span></div>
-                    <div class="icon right_icon"><i class="fa fa-check-circle"></i>
-                        <span>Lorem ipsum dolor sit am</span></div>
-                    <div class="icon right_icon"><i class="fa fa-check-circle"></i>
-                        <span>Lorem ipsum dolor sit am</span></div>
+                    <div class="list">
+                        <div class="icon right_icon"><i class="fa fa-check-circle"></i>
+                            <span>Lorem ipsum dolor sit am</span></div>
+                        <div class="icon right_icon"><i class="fa fa-check-circle"></i>
+                            <span>Lorem ipsum dolor sit am</span></div>
+                        <div class="icon right_icon"><i class="fa fa-check-circle"></i>
+                            <span>Lorem ipsum dolor sit am</span></div>
+                        <div class="icon right_icon"><i class="fa fa-check-circle"></i>
+                            <span>Lorem ipsum dolor sit am</span></div>
+                    </div>
                 </div>
             </div>
         </div>

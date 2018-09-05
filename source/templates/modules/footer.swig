@@ -11,11 +11,11 @@
                    <a href="#">Blog</a></li>
                 <li class="item text" id="footer__menu__item3">
                    <a href="#">Contact</a></li>
-                <li class="item text" id="footer__menu__item4">
+                <li class="item social" id="footer__menu__item4">
                    <a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li class="item text" id="footer__menu__item5">
+                <li class="item social" id="footer__menu__item5">
                    <a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li class="item text" id="footer__menu__item6">
+                <li class="item social" id="footer__menu__item6">
                    <a href="#"><i class="fa fa-google-plus"></i></a></li>
             </ul>
         </div>
