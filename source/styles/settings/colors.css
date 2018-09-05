@@ -8,6 +8,12 @@
 .text-black {
   color: #000000;
 }
+.text-dodger-blue {
+  color: #5284FF;
+}
+.text-tickle-pink {
+  color: #FB94B7;
+}
 .background-white {
   background-color: #FFFFFF !important;
 }

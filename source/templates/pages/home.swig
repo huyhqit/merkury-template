@@ -144,28 +144,49 @@
         <div class="title">Check our pricing!</div>
         <div class="list">
             <div class="item" id="section_5__card_1">
-                <div class="title">BRONZE PLAN</div>
-                <div class="pricing">$19/mon</div>
-                <div class="right_iconn">Lorem ipsum dolor sit am</div>
-                <div class="right_iconn">Lorem ipsum dolor sit am</div>
-                <div class="false_iconn">Lorem ipsum dolor sit am</div>
-                <div class="false_iconn">Lorem ipsum dolor sit am</div>
+                <img src='../../assets/images/pages/home/section_5__card.png' alt=''>
+                <div class="text">
+                    <div class="title">BRONZE PLAN</div>
+                    <div class="pricing"><span><span>$</span>19</span>/mon</div>
+                    <div class="icon right_icon"><i class="fa fa-check-circle"></i>
+                        <span>Lorem ipsum dolor sit am</span></div>
+                    <div class="icon right_icon"><i class="fa fa-check-circle"></i>
+                        <span>Lorem ipsum dolor sit am</span></div>
+                    <div class="icon false_icon"><i class="fa fa-times-circle"></i>
+                        <span>Lorem ipsum dolor sit am</span></div>
+                    <div class="icon false_icon"><i class="fa fa-times-circle"></i>
+                        <span>Lorem ipsum dolor sit am</span></div>
+                </div>
             </div>
-            <div class="item" id="section_5__card_1">
-                <div class="title">SILVER PLAN</div>
-                <div class="pricing">$49/mon</div>
-                <div class="right_iconn">Lorem ipsum dolor sit am</div>
-                <div class="right_iconn">Lorem ipsum dolor sit am</div>
-                <div class="false_iconn">Lorem ipsum dolor sit am</div>
-                <div class="false_iconn">Lorem ipsum dolor sit am</div>
+            <div class="item" id="section_5__card_2">
+                <img src='../../assets/images/pages/home/section_5__card.png' alt=''>
+                <div class="text">
+                    <div class="title">SILVER PLAN</div>
+                    <div class="pricing"><span><span>$</span>49</span>/mon</div>
+                    <div class="icon right_icon"><i class="fa fa-check-circle"></i>
+                        <span>Lorem ipsum dolor sit am</span></div>
+                    <div class="icon right_icon"><i class="fa fa-check-circle"></i>
+                        <span>Lorem ipsum dolor sit am</span></div>
+                    <div class="icon right_icon"><i class="fa fa-check-circle"></i>
+                        <span>Lorem ipsum dolor sit am</span></div>
+                    <div class="icon false_icon"><i class="fa fa-times-circle"></i>
+                        <span>Lorem ipsum dolor sit am</span></div>
+                </div>
             </div>
-            <div class="item" id="section_5__card_1">
-                <div class="title">GOLD PLAN</div>
-                <div class="pricing">$99/mon</div>
-                <div class="right_iconn">Lorem ipsum dolor sit am</div>
-                <div class="right_iconn">Lorem ipsum dolor sit am</div>
-                <div class="false_iconn">Lorem ipsum dolor sit am</div>
-                <div class="false_iconn">Lorem ipsum dolor sit am</div>
+            <div class="item" id="section_5__card_2">
+                <img src='../../assets/images/pages/home/section_5__card.png' alt=''>
+                <div class="text">
+                    <div class="title">GOLD PLAN</div>
+                    <div class="pricing"><span><span>$</span>99</span>/mon</div>
+                    <div class="icon right_icon"><i class="fa fa-check-circle"></i>
+                        <span>Lorem ipsum dolor sit am</span></div>
+                    <div class="icon right_icon"><i class="fa fa-check-circle"></i>
+                        <span>Lorem ipsum dolor sit am</span></div>
+                    <div class="icon right_icon"><i class="fa fa-check-circle"></i>
+                        <span>Lorem ipsum dolor sit am</span></div>
+                    <div class="icon right_icon"><i class="fa fa-check-circle"></i>
+                        <span>Lorem ipsum dolor sit am</span></div>
+                </div>
             </div>
         </div>
         <div class="text" id="section_5__description">

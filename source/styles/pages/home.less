@@ -302,7 +302,7 @@
       }
       #section_4__picture{
         position: absolute;
-        left: 289px;
+        left: 565px;
         img{
           height: 430px;
           width: auto;
@@ -316,22 +316,69 @@
   #section_5{
     .text-center;
     >.container{
+      font-size: 12px;
+      padding-bottom: 66px;
       >.list{
         .row;
-        margin: 65px 45px;
+        margin: 52px 45px;
         >.item{
           .make-md-column(4);
+          position: relative;
+          
+          img{
+            width: 227px;
+            height: auto;
+            border: 1px solid green;
+          }
+          >.text{
+            position: absolute;
+            top: 25px;
+            left: 2px;
+            right: 0;
+            >.icon{
+              margin: 8px 0 0 -6px;
+            }
+
+            >.right_icon{
+              i{
+                .text-dodger-blue;
+                font-size: 16px;
+              }
+            }
+
+            >.false_icon{
+              i{
+                .text-tickle-pink;
+                font-size: 16px;
+              }
+            }
+            
           >.title{
             .font-roboto-regular;
-            font-size: 16px;
+            font-size: 15px;
+          }
+          >.pricing{
+            font-size: 15px;
+            margin-top: 14px;
+            span{
+              .font-roboto-bold;
+              font-size: 45px;
+              span{
+                font-size: 25px;
+              }
+            }
+          }
           }
         }
         
       }
+      #section_5__description{
+        padding-top: 15px;
+      }
       #section_5__button{
         >.button{
-          width: 130px;
-          height: 32px;
+          margin-top: 42px;
+          padding: 6px 37px 5px 40px;
           display: inline-block;
           .text-white;
           .background-dodger;
