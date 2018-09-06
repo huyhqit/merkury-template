@@ -13,7 +13,7 @@
                 <div class="title">Manage Your Workflow</div>
                 <div class="description">Lorem ipsum dolor sit amet, consectetur
                     <br> adipisicing elit, sed do eiusmod tempor 
-                    <br> incididunt ut labore et dolore magna aliqua. Ut
+                    <br> incididunt ut labore et dolore magna aliqua.
                 </div>
                 <div class="actions">
                     <a href="#" class="button" id="section_1__item1__button">See more</a>
@@ -25,7 +25,7 @@
                 <div class="title">Analytics & Insights</div>
                 <div class="description">Lorem ipsum dolor sit amet, consectetur
                     <br> adipisicing elit, sed do eiusmod tempor 
-                    <br> incididunt ut labore et dolore magna aliqua. Ut
+                    <br> incididunt ut labore et dolore magna aliqua.
                 </div>
                 <div class="actions">
                     <a href="#" class="button" id="section_1__item2__button">See more</a>
@@ -37,7 +37,7 @@
                 <div class="title">Organize Your Deadlines</div>
                 <div class="description">Lorem ipsum dolor sit amet, consectetur
                     <br> adipisicing elit, sed do eiusmod tempor 
-                    <br> incididunt ut labore et dolore magna aliqua. Ut
+                    <br> incididunt ut labore et dolore magna aliqua.
                 </div>
                 <div class="actions">
                     <a href="#" class="button" id="section_1__item3__button">See more</a>
@@ -60,15 +60,17 @@
                 <br>
                 ut aliquip ex ea commodo consequat.
             </div>
-            <div class="lb"><span class="icon" id="section_2__lb__icon_1">
-                <i class="fa fa-check-circle"></i>
-            </span>
-                Lorem ipsum dolor sit amet consectetur
+            <div class="lb">
+                <span class="icon" id="section_2__lb__icon_1">
+                    <img src='../../assets/images/pages/home/section_5__check_true.png' alt="">
+                </span>
+                <span> Lorem ipsum dolor sit amet consectetur</span>
             </div>
-            <div class="lb"><span class="icon" id="section2__lb__icon_2">
-                <i class="fa fa-check-circle"></i>
-            </span>
-                Ut enim ad minim veniam quis nostrud
+            <div class="lb">
+                <span class="icon" id="section2__lb__icon_2">
+                    <img src='../../assets/images/pages/home/section_5__check_true.png' alt="">
+                </span>
+                <span>Ut enim ad minim veniam quis nostrud</span>
             </div>
             
         </div>
@@ -147,15 +149,23 @@
                 <img src='../../assets/images/pages/home/section_5__card.png' alt=''>
                 <div class="text">
                     <div class="title">BRONZE PLAN</div>
-                    <div class="pricing"><span><span>$</span>19</span>/mon</div>
+                    <div class="pricing">
+                        <span class="dolla">$</span>
+                        <span class="number">19</span>
+                        <span class="time">/mon</span>
+                    </div>
                     <div class="list">
-                        <div class="icon right_icon"><i class="fa fa-check-circle"></i>
+                        <div class="icon right_icon">
+                            <img src='../../assets/images/pages/home/section_5__check_true.png' alt="">
                             <span>Lorem ipsum dolor sit am</span></div>
-                        <div class="icon right_icon"><i class="fa fa-check-circle"></i>
+                        <div class="icon right_icon">
+                            <img src='../../assets/images/pages/home/section_5__check_true.png' alt="">
                             <span>Lorem ipsum dolor sit am</span></div>
-                        <div class="icon false_icon"><i class="fa fa-times-circle"></i>
+                        <div class="icon false_icon">
+                            <img src='../../assets/images/pages/home/section_5__check_false.png' alt="">
                             <span>Lorem ipsum dolor sit am</span></div>
-                        <div class="icon false_icon"><i class="fa fa-times-circle"></i>
+                        <div class="icon false_icon">
+                            <img src='../../assets/images/pages/home/section_5__check_false.png' alt="">
                             <span>Lorem ipsum dolor sit am</span></div>
                     </div>
                 </div>
@@ -164,15 +174,23 @@
                 <img src='../../assets/images/pages/home/section_5__card.png' alt=''>
                 <div class="text">
                     <div class="title">SILVER PLAN</div>
-                    <div class="pricing"><span><span>$</span>49</span>/mon</div>
+                    <div class="pricing">
+                        <span class="dolla">$</span>
+                        <span class="number">49</span>
+                        <span class="time">/mon</span>
+                    </div>
                     <div class="list">
-                        <div class="icon right_icon"><i class="fa fa-check-circle"></i>
+                        <div class="icon right_icon">
+                            <img src='../../assets/images/pages/home/section_5__check_true.png' alt="">
                             <span>Lorem ipsum dolor sit am</span></div>
-                        <div class="icon right_icon"><i class="fa fa-check-circle"></i>
+                        <div class="icon right_icon">
+                            <img src='../../assets/images/pages/home/section_5__check_true.png' alt="">
                             <span>Lorem ipsum dolor sit am</span></div>
-                        <div class="icon right_icon"><i class="fa fa-check-circle"></i>
+                        <div class="icon right_icon">
+                            <img src='../../assets/images/pages/home/section_5__check_true.png' alt="">
                             <span>Lorem ipsum dolor sit am</span></div>
-                        <div class="icon false_icon"><i class="fa fa-times-circle"></i>
+                        <div class="icon false_icon">
+                            <img src='../../assets/images/pages/home/section_5__check_false.png' alt="">
                             <span>Lorem ipsum dolor sit am</span></div>
                     </div>
                 </div>
@@ -181,15 +199,23 @@
                 <img src='../../assets/images/pages/home/section_5__card.png' alt=''>
                 <div class="text">
                     <div class="title">GOLD PLAN</div>
-                    <div class="pricing"><span><span>$</span>99</span>/mon</div>
+                    <div class="pricing">
+                        <span class="dolla">$</span>
+                        <span class="number">99</span>
+                        <span class="time">/mon</span>
+                    </div>
                     <div class="list">
-                        <div class="icon right_icon"><i class="fa fa-check-circle"></i>
+                        <div class="icon right_icon">
+                            <img src='../../assets/images/pages/home/section_5__check_true.png' alt="">
                             <span>Lorem ipsum dolor sit am</span></div>
-                        <div class="icon right_icon"><i class="fa fa-check-circle"></i>
+                        <div class="icon right_icon">
+                            <img src='../../assets/images/pages/home/section_5__check_true.png' alt="">
                             <span>Lorem ipsum dolor sit am</span></div>
-                        <div class="icon right_icon"><i class="fa fa-check-circle"></i>
+                        <div class="icon right_icon">
+                            <img src='../../assets/images/pages/home/section_5__check_true.png' alt="">
                             <span>Lorem ipsum dolor sit am</span></div>
-                        <div class="icon right_icon"><i class="fa fa-check-circle"></i>
+                        <div class="icon right_icon">
+                            <img src='../../assets/images/pages/home/section_5__check_true.png' alt="">
                             <span>Lorem ipsum dolor sit am</span></div>
                     </div>
                 </div>
@@ -200,9 +226,7 @@
             <br>
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
         </div>
-        <div id="section_5__button">
-            <a class="button" href="#">Join now!</a>
-        </div>
+        <a id="section_5__button" class="button" href="#">Join now!</a>
     </div>
 </div>
 {% endblock %}

@@ -8,40 +8,49 @@
 #footer{
     height: 96px;
     background-color: @bunting-color;
-    .text-white;
+    .text-bali-hai;
     .font-roboto-regular;   
     .container{
-        line-height: 99px;
+        line-height: 98px;
         font-size: 12px;
         #footer__copyright{
             .pull-left;
-            margin-left: 107px;
+            margin-left: 108px;
             letter-spacing: -0.4px;
         }
         #footer__menu{
             .pull-right;
-            margin-right: 65px;
+            margin-right: 107px;
             ul{
                 list-style-type: none;
                 li {
                     .pull-left;
                     a{
-                        .text-white;
+                        .text-bali-hai;
+
                         &:hover{
                             text-decoration: none;
+                            opacity: 0.85;
                         }
                     }
                     &.text{
                         margin-right: 30px;
-                        &#footer__menu__item3{
-                            margin-right: 15px;
-                        }
+                            &#footer__menu__item1{
+                                margin-right: 30px;
+                            }
+                            &#footer__menu__item2{
+                                margin-right: 33px;
+                            }
+                            &#footer__menu__item3{
+                                margin-right: 18px;
+                            }
+                            &#footer__menu__item6{
+                                margin-left: 10px;
+                                margin-right: 39px;
+                            }
                     }
                     &.social{
-                        margin-left: 13px;
-                        &:last-child{
-                            margin-right: 36px;
-                        }
+                        margin-left: 11px;
                     }
                 }
             }

@@ -16,7 +16,7 @@
                 <li class="item social" id="footer__menu__item5">
                    <a href="#"><i class="fa fa-twitter"></i></a></li>
                 <li class="item social" id="footer__menu__item6">
-                   <a href="#"><i class="fa fa-google-plus"></i></a></li>
+                   <a href="#"><img src='../../assets/images/pages/home/footer__google_plus.png' alt=""></a></li>
             </ul>
         </div>
     </div>
