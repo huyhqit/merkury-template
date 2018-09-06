@@ -5,228 +5,225 @@
 {% block bodyClass %}page-home{% endblock %}
 
 {% block main %}
-<div class="section" id="section_1">
-    <div class="container">
-        <div class="list">
-            <div class="item" id="section_1__item1">
-                <div class="thumbnail"><img src='../../assets/images/pages/home/section_1__item1.png' alt=''></div>
-                <div class="title">Manage Your Workflow</div>
-                <div class="description">Lorem ipsum dolor sit amet, consectetur
-                    <br> adipisicing elit, sed do eiusmod tempor 
-                    <br> incididunt ut labore et dolore magna aliqua.
+<div id="main">
+        <div class="section" id="section_1">
+                <div class="container">
+                    <div class="list">
+                        <div class="item" id="section_1__item_1">
+                            <div class="thumbnail"><img src='../../assets/images/pages/home/section_1__item1.png' alt=''></div>
+                            <div class="title">Manage Your Workflow</div>
+                            <div class="description">Lorem ipsum dolor sit amet, consectetur
+                                <br> adipisicing elit, sed do eiusmod tempor 
+                                <br> incididunt ut labore et dolore magna aliqua.
+                            </div>
+                            <a href="#" class="actions button" id="section_1__item_1__button">See more</a>
+                        </div>
+            
+                        <div class="item" id="section_1__item_2">
+                            <div class="thumbnail"><img src='../../assets/images/pages/home/section_1__item2.png' alt=''></div>
+                            <div class="title">Analytics & Insights</div>
+                            <div class="description">Lorem ipsum dolor sit amet, consectetur
+                                <br> adipisicing elit, sed do eiusmod tempor 
+                                <br> incididunt ut labore et dolore magna aliqua.
+                            </div>
+                            <a href="#" class="actions button" id="section_1__item_2__button">See more</a>
+                        </div>
+            
+                        <div class="item" id="section_1__item_3">
+                            <div class="thumbnail"><img src='../../assets/images/pages/home/section_1__item3.png' alt=''></div>
+                            <div class="title">Organize Your Deadlines</div>
+                            <div class="description">Lorem ipsum dolor sit amet, consectetur
+                                <br> adipisicing elit, sed do eiusmod tempor 
+                                <br> incididunt ut labore et dolore magna aliqua.
+                            </div>
+                                <a href="#" class="button actions" id="section_1__item_3__button">See more</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="actions">
-                    <a href="#" class="button" id="section_1__item1__button">See more</a>
-                </div>
-            </div>
-
-            <div class="item" id="section_1__item2">
-                <div class="thumbnail"><img src='../../assets/images/pages/home/section_1__item2.png' alt=''></div>
-                <div class="title">Analytics & Insights</div>
-                <div class="description">Lorem ipsum dolor sit amet, consectetur
-                    <br> adipisicing elit, sed do eiusmod tempor 
-                    <br> incididunt ut labore et dolore magna aliqua.
-                </div>
-                <div class="actions">
-                    <a href="#" class="button" id="section_1__item2__button">See more</a>
-                </div>
-            </div>
-
-            <div class="item" id="section_1__item3">
-                <div class="thumbnail"><img src='../../assets/images/pages/home/section_1__item3.png' alt=''></div>
-                <div class="title">Organize Your Deadlines</div>
-                <div class="description">Lorem ipsum dolor sit amet, consectetur
-                    <br> adipisicing elit, sed do eiusmod tempor 
-                    <br> incididunt ut labore et dolore magna aliqua.
-                </div>
-                <div class="actions">
-                    <a href="#" class="button" id="section_1__item3__button">See more</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="section" id="section_2">
-    <div class="container">
-        <div class="list">
-            <div class="title">All You need is a browser!</div>
-            <div class="text" id="section_2__text_1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
-            <br>
-            tempor incididunt ut labore et dolore magna aliqua.
-            </div>
-            <div class="text" id="section_2__text_2">
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-                <br>
-                ut aliquip ex ea commodo consequat.
-            </div>
-            <div class="lb">
-                <span class="icon" id="section_2__lb__icon_1">
-                    <img src='../../assets/images/pages/home/section_5__check_true.png' alt="">
-                </span>
-                <span> Lorem ipsum dolor sit amet consectetur</span>
-            </div>
-            <div class="lb">
-                <span class="icon" id="section2__lb__icon_2">
-                    <img src='../../assets/images/pages/home/section_5__check_true.png' alt="">
-                </span>
-                <span>Ut enim ad minim veniam quis nostrud</span>
             </div>
             
-        </div>
-        <div id="section_2__picture">
-            <img src='../../assets/images/pages/home/section_2__image.png' alt=''>
-        </div>
-    </div>
-    
-</div>
-
-<div class="section" id="section_3">
-    <div class="container">
-        <div class="list">
-            <div class="column" id="section_3__task">
-                    <img src='../../assets/images/pages/home/section_3__task.png' alt=''>
-            </div>
-            <div class="column" id="section_3__text">
-                <div class="title">Drag & Drop</div>
-                <div class="text" id="section_3__text__description_1">Lorem ipsum dolor sit amet,
-                    consectetur adipisicing elit, sed do
-                    <br>
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </div>
-                <div class="text" id="section_3__text__description_2">Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco
-                    <br>
-                    laboris nisi ut aliquip ex ea commodo consequat.
-                </div>
-                <div id="section_3__text__icon">
-                    <span><i class="fa fa-chevron-circle-left"></i></span>
-                    <span><i class="fa fa-chevron-circle-right"></i></span>
-                </div>
-            </div>
-        </div>
-        <img src='../../assets/images/pages/home/section_3__line.png' alt=''>
-    </div>
-</div>
-
-<div class="section" id="section_4">
-    <div class="container">
-        <div class="title">Powerfull PSD Template</div>
-        <div class="description">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                <br>
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-        </div>
-        <div class="feature-template" id="section_4__text_1">
-            <div class="title">Clean & modern layout</div>
-            <div id="section_4__text_1__line">
-                <img src='../../assets/images/pages/home/section_4__line_left.png' alt="">
-            </div>
-            <div class="description">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
-            </div>
-        </div>
-        <div class="feature-template" id="section_4__text_2">
-            <div class="title">Easy to customize</div>
-            <div id="section_4__text_2__line">
-                <img src='../../assets/images/pages/home/section_4__line_right.png' alt=''>
-            </div>
-            <div class="description">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-            </div>
-        </div>
-        <div id="section_4__picture">
-            <img src='../../assets/images/pages/home/section_4__item_1.png' alt=''>
-        </div>
-    </div>
-</div>
-
-<div class="section" id="section_5">
-    <div class="container">
-        <div class="title">Check our pricing!</div>
-        <div class="list">
-            <div class="item" id="section_5__card_1">
-                <img src='../../assets/images/pages/home/section_5__card.png' alt=''>
-                <div class="text">
-                    <div class="title">BRONZE PLAN</div>
-                    <div class="pricing">
-                        <span class="dolla">$</span>
-                        <span class="number">19</span>
-                        <span class="time">/mon</span>
-                    </div>
+            <div class="section" id="section_2">
+                <div class="container">
                     <div class="list">
-                        <div class="icon right_icon">
-                            <img src='../../assets/images/pages/home/section_5__check_true.png' alt="">
-                            <span>Lorem ipsum dolor sit am</span></div>
-                        <div class="icon right_icon">
-                            <img src='../../assets/images/pages/home/section_5__check_true.png' alt="">
-                            <span>Lorem ipsum dolor sit am</span></div>
-                        <div class="icon false_icon">
-                            <img src='../../assets/images/pages/home/section_5__check_false.png' alt="">
-                            <span>Lorem ipsum dolor sit am</span></div>
-                        <div class="icon false_icon">
-                            <img src='../../assets/images/pages/home/section_5__check_false.png' alt="">
-                            <span>Lorem ipsum dolor sit am</span></div>
+                        <div class="title">All You need is a browser!</div>
+                        <div class="text" id="section_2__text_1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
+                        <br>
+                        tempor incididunt ut labore et dolore magna aliqua.
+                        </div>
+                        <div class="text" id="section_2__text_2">
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                            <br>
+                            ut aliquip ex ea commodo consequat.
+                        </div>
+                        <div class="item">
+                            <span class="icon" id="section_2__icon_1">
+                                <img src='../../assets/images/pages/home/section_5__check_true.png' alt="">
+                            </span>
+                            <span> Lorem ipsum dolor sit amet consectetur</span>
+                        </div>
+                        <div class="item">
+                            <span class="icon" id="section_2__icon_2">
+                                <img src='../../assets/images/pages/home/section_5__check_true.png' alt="">
+                            </span>
+                            <span>Ut enim ad minim veniam quis nostrud</span>
+                        </div>
+                        
+                    </div>
+                    <div id="section_2__picture">
+                        <img src='../../assets/images/pages/home/section_2__image.png' alt=''>
                     </div>
                 </div>
+                
             </div>
-            <div class="item" id="section_5__card_2">
-                <img src='../../assets/images/pages/home/section_5__card.png' alt=''>
-                <div class="text">
-                    <div class="title">SILVER PLAN</div>
-                    <div class="pricing">
-                        <span class="dolla">$</span>
-                        <span class="number">49</span>
-                        <span class="time">/mon</span>
-                    </div>
+            
+            <div class="section" id="section_3">
+                <div class="container">
                     <div class="list">
-                        <div class="icon right_icon">
-                            <img src='../../assets/images/pages/home/section_5__check_true.png' alt="">
-                            <span>Lorem ipsum dolor sit am</span></div>
-                        <div class="icon right_icon">
-                            <img src='../../assets/images/pages/home/section_5__check_true.png' alt="">
-                            <span>Lorem ipsum dolor sit am</span></div>
-                        <div class="icon right_icon">
-                            <img src='../../assets/images/pages/home/section_5__check_true.png' alt="">
-                            <span>Lorem ipsum dolor sit am</span></div>
-                        <div class="icon false_icon">
-                            <img src='../../assets/images/pages/home/section_5__check_false.png' alt="">
-                            <span>Lorem ipsum dolor sit am</span></div>
+                        <div class="item" id="section_3__item_1">
+                            <img src='../../assets/images/pages/home/section_3__task.png' alt=''>
+                        </div>
+                        <img src='../../assets/images/pages/home/section_3__line.png' alt=''>
+                        <div class="item" id="section_3__item_2">
+                            <div class="title">Drag & Drop</div>
+                            <div class="text" id="section_3__item_2__text_1">Lorem ipsum dolor sit amet,
+                                consectetur adipisicing elit, sed do
+                                <br>
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            </div>
+                            <div class="text" id="section_3__item_2__text_2">Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco
+                                <br>
+                                laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>
+                            <div id="section_3__item_2__icon">
+                                <span><i class="fa fa-chevron-circle-left"></i></span>
+                                <span><i class="fa fa-chevron-circle-right"></i></span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="item" id="section_5__card_3">
-                <img src='../../assets/images/pages/home/section_5__card.png' alt=''>
-                <div class="text">
-                    <div class="title">GOLD PLAN</div>
-                    <div class="pricing">
-                        <span class="dolla">$</span>
-                        <span class="number">99</span>
-                        <span class="time">/mon</span>
+            
+            <div class="section" id="section_4">
+                <div class="container">
+                    <div class="title">Powerfull PSD Template</div>
+                    <div class="description">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        <br>
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                     </div>
+                    <img id='section_4__picture' src='../../assets/images/pages/home/section_4__item_1.png' alt=''>
+                    <div class="object" id="section_4__object_1">
+                        <img src='../../assets/images/pages/home/section_4__line_left.png' alt="">
+                        <div class="text">
+                            <div class="title">Clean & modern layout</div>
+                            <div class="description">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="object" id="section_4__object_2">
+                        <img src='../../assets/images/pages/home/section_4__line_right.png' alt=''>
+                        <div class="text">
+                            <div class="title">Easy to customize</div>
+                            <div class="description">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section" id="section_5">
+                <div class="container">
+                    <div class="title">Check our pricing!</div>
                     <div class="list">
-                        <div class="icon right_icon">
-                            <img src='../../assets/images/pages/home/section_5__check_true.png' alt="">
-                            <span>Lorem ipsum dolor sit am</span></div>
-                        <div class="icon right_icon">
-                            <img src='../../assets/images/pages/home/section_5__check_true.png' alt="">
-                            <span>Lorem ipsum dolor sit am</span></div>
-                        <div class="icon right_icon">
-                            <img src='../../assets/images/pages/home/section_5__check_true.png' alt="">
-                            <span>Lorem ipsum dolor sit am</span></div>
-                        <div class="icon right_icon">
-                            <img src='../../assets/images/pages/home/section_5__check_true.png' alt="">
-                            <span>Lorem ipsum dolor sit am</span></div>
+                        <div class="card" id="section_5__card_1">
+                            <img src='../../assets/images/pages/home/section_5__card.png' alt=''>
+                            <div class="text">
+                                <div class="title">BRONZE PLAN</div>
+                                <div class="pricing">
+                                    <span class="dolla">$</span>
+                                    <span class="number">19</span>
+                                    <span class="time">/mon</span>
+                                </div>
+                                <div class="list">
+                                    <div class="item">
+                                        <img src='../../assets/images/pages/home/section_5__check_true.png' alt="">
+                                        <span>Lorem ipsum dolor sit am</span></div>
+                                    <div class="item">
+                                        <img src='../../assets/images/pages/home/section_5__check_true.png' alt="">
+                                        <span>Lorem ipsum dolor sit am</span></div>
+                                    <div class="item">
+                                        <img src='../../assets/images/pages/home/section_5__check_false.png' alt="">
+                                        <span>Lorem ipsum dolor sit am</span></div>
+                                    <div class="item">
+                                        <img src='../../assets/images/pages/home/section_5__check_false.png' alt="">
+                                        <span>Lorem ipsum dolor sit am</span></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" id="section_5__card_2">
+                            <img src='../../assets/images/pages/home/section_5__card.png' alt=''>
+                            <div class="text">
+                                <div class="title">SILVER PLAN</div>
+                                <div class="pricing">
+                                    <span class="dolla">$</span>
+                                    <span class="number">49</span>
+                                    <span class="time">/mon</span>
+                                </div>
+                                <div class="list">
+                                    <div class="item">
+                                        <img src='../../assets/images/pages/home/section_5__check_true.png' alt="">
+                                        <span>Lorem ipsum dolor sit am</span></div>
+                                    <div class="item">
+                                        <img src='../../assets/images/pages/home/section_5__check_true.png' alt="">
+                                        <span>Lorem ipsum dolor sit am</span></div>
+                                    <div class="item">
+                                        <img src='../../assets/images/pages/home/section_5__check_true.png' alt="">
+                                        <span>Lorem ipsum dolor sit am</span></div>
+                                    <div class="item">
+                                        <img src='../../assets/images/pages/home/section_5__check_false.png' alt="">
+                                        <span>Lorem ipsum dolor sit am</span></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" id="section_5__card_3">
+                            <img src='../../assets/images/pages/home/section_5__card.png' alt=''>
+                            <div class="text">
+                                <div class="title">GOLD PLAN</div>
+                                <div class="pricing">
+                                    <span class="dolla">$</span>
+                                    <span class="number">99</span>
+                                    <span class="time">/mon</span>
+                                </div>
+                                <div class="list">
+                                    <div class="item">
+                                        <img src='../../assets/images/pages/home/section_5__check_true.png' alt="">
+                                        <span>Lorem ipsum dolor sit am</span></div>
+                                    <div class="item">
+                                        <img src='../../assets/images/pages/home/section_5__check_true.png' alt="">
+                                        <span>Lorem ipsum dolor sit am</span></div>
+                                    <div class="item">
+                                        <img src='../../assets/images/pages/home/section_5__check_true.png' alt="">
+                                        <span>Lorem ipsum dolor sit am</span></div>
+                                    <div class="item">
+                                        <img src='../../assets/images/pages/home/section_5__check_true.png' alt="">
+                                        <span>Lorem ipsum dolor sit am</span></div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                    <div class="text" id="section_5__description">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                        <br>
+                        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+                    </div>
+                    <a id="section_5__button" class="button" href="#">Join now!</a>
                 </div>
             </div>
-        </div>
-        <div class="text" id="section_5__description">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-            <br>
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
-        </div>
-        <a id="section_5__button" class="button" href="#">Join now!</a>
-    </div>
+            <div id="overlay">
+                <img src='./../../assets/images/demo/pages/home/overlay.png' />
+            </div>
 </div>
 {% endblock %}
