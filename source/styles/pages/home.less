@@ -54,6 +54,7 @@
           }
           >.description{
             .font-roboto-regular;
+            .text-bali-hai;
             font-size: 18px;
             margin-top: 18px;
             letter-spacing: 0.1px;
@@ -138,8 +139,9 @@
           padding-top: 220px;
         }
         >.text{
+          .text-bali-hai;
           font-size: 18px;
-          margin: 33px 0;
+          margin: 32px 0;
           line-height: 31px;
           &#section_2__text_1{
             
@@ -147,14 +149,14 @@
           }
 
           &#section_2__text_2{
-            margin-top: -7px;
+            margin-top: -5px;
             margin-bottom: 36px;
             line-height: 31px;
             letter-spacing: -0.1px;
           }
         }
         >.item{
-          margin: 51px 2px 52px 2px;
+          margin: 53px 2px 52px 2px;
           letter-spacing: -0.1px;
           font-size: 22px;
           
@@ -171,7 +173,7 @@
 
         }
         >.item:last-child{
-          margin-top: -20px;
+          margin-top: -22px;
           img{
             margin-top: -3px;
           }
@@ -179,10 +181,10 @@
       }
     #section_2__picture{
       position: absolute;
-      right: -249px;
+      right: -250px;
       top: 161px;
       img{
-        width: 1043px;
+        width: 1047px;
         height: auto;
       }
     }
@@ -270,6 +272,7 @@
       }
       >.description{
         .font-roboto-regular;
+        .text-bali-hai;
         font-size: 18px;
         margin-top: 35px;
         line-height: 28px;
@@ -296,6 +299,7 @@
           }
           >.description{
             .font-roboto-regular;
+            .text-bali-hai;
             width: 248px;
             margin-top: 35px;
             font-size: 18px;
@@ -374,6 +378,7 @@
                 font-size: 40px;
               }
               >.time{
+                .text-bali-hai;
                 font-size: 24px;
               }
             }
@@ -388,6 +393,7 @@
                 }
 
                 span{
+                  .text-bali-hai;
                   padding-left: 5px;
                   letter-spacing: 0.3px;
                 }
@@ -417,6 +423,7 @@
                   margin-left: -18px;
                 }
                 >.time{
+                  .text-bali-hai;
                   margin-left: -14px;
                 }
               }
@@ -503,12 +510,14 @@
         
       }
       >.description{
+        .text-bali-hai;
         padding-top: 140px;
         line-height: 29px;
         padding-left: 19px;
         letter-spacing: -0.1px;
       }
       #section_5__button{
+        position: relative;
           margin-top: 63px;
           margin-left: 3px;
           line-height: 48px;
@@ -522,7 +531,42 @@
           &:hover{
             text-decoration: none;
           }
+
+          &::before{
+            content: '';
+            border-top: 1px solid #DADEE7;
+            width: 230px;
+            position: absolute;
+            top: 50%;
+            left: -160px;
+            margin-left: -50%;
+          }
+
+          &::after{
+            content: '';
+            border-top: 1px solid #DADEE7;
+            width: 230px;
+            position: absolute;
+            top: 50%;
+            left: 290px;
+            margin-left: -25%;
+          }
       }
+
+      // >.contact{
+      //   position: relative;
+      //   hr{
+      //     border-color: @geyser-color;
+      //     // border-width: 230px;
+      //     position: absolute;
+      //     top: 66px;
+      //     left: 102px;
+      //     &:last-child{
+      //       top: 66px;
+      //       right: 105px;
+      //     }
+      //   }
+      // }
     }
   }
 }
