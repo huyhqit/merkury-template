@@ -6,17 +6,23 @@
         <div id="footer__menu">
             <ul>
                 <li class="item text" id="footer__menu__item1">
-                   <a href="#">Pricing</a></li>
+                   <a href="#">Pricing</a>
+                </li>
                 <li class="item text" id="footer__menu__item2">
-                   <a href="#">Blog</a></li>
+                   <a href="#">Blog</a>
+                </li>
                 <li class="item text" id="footer__menu__item3">
-                   <a href="#">Contact</a></li>
+                   <a href="#">Contact</a>
+                </li>
                 <li class="item social" id="footer__menu__item4">
-                   <a href="#"><i class="fa fa-facebook"></i></a></li>
+                   <a href="#"><i class="fa fa-facebook"></i></a>
+                </li>
                 <li class="item social" id="footer__menu__item5">
-                   <a href="#"><i class="fa fa-twitter"></i></a></li>
+                   <a href="#"><i class="fa fa-twitter"></i></a>
+                </li>
                 <li class="item social" id="footer__menu__item6">
-                   <a href="#"><img src='../../assets/images/pages/home/footer__google_plus.png' alt=""></a></li>
+                   <img src='../../assets/images/pages/home/footer__google_plus.png' alt="">
+                </li>
             </ul>
         </div>
     </div>

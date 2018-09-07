@@ -6,21 +6,24 @@
 #footer{}
 
 #footer{
-    height: 96px;
-    background-color: @bunting-color;
+    background-image: url('../../assets/images/pages/home/footer-background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-bottom: 60px;
+    .container{
     .text-bali-hai;
     .font-roboto-regular;   
-    .container{
-        line-height: 98px;
-        font-size: 12px;
+    
+        font-size: 18px;
         #footer__copyright{
             .pull-left;
-            margin-left: 108px;
-            letter-spacing: -0.4px;
+            padding-top: 65px;
+            letter-spacing: -0.1px;
         }
         #footer__menu{
             .pull-right;
-            margin-right: 107px;
+            padding-top: 65px;
             ul{
                 list-style-type: none;
                 li {
@@ -34,23 +37,29 @@
                         }
                     }
                     &.text{
-                        margin-right: 30px;
-                            &#footer__menu__item1{
-                                margin-right: 30px;
-                            }
-                            &#footer__menu__item2{
-                                margin-right: 33px;
-                            }
-                            &#footer__menu__item3{
-                                margin-right: 18px;
-                            }
-                            &#footer__menu__item6{
-                                margin-left: 10px;
-                                margin-right: 39px;
-                            }
+                        &#footer__menu__item1{
+                            margin-right: 50px;
+                        }
+                        &#footer__menu__item2{
+                            margin-right: 55px;
+                        }
+                        &#footer__menu__item3{
+                            margin-right: 48px;
+                        }
                     }
                     &.social{
-                        margin-left: 11px;
+                        &#footer__menu__item4{
+                            margin-right: 21px;
+                        }
+                        &#footer__menu__item5{
+                            margin-right: 18px;
+                        }
+                        &#footer__menu__item6{
+                            img{
+                                width: 18px;
+                                height: auto;
+                            }
+                        }
                     }
                 }
             }

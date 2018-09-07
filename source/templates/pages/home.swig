@@ -16,7 +16,7 @@
                                 <br> adipisicing elit, sed do eiusmod tempor 
                                 <br> incididunt ut labore et dolore magna aliqua.
                             </div>
-                            <a href="#" class="actions button" id="section_1__item_1__button">See more</a>
+                            <a href="#" class="button" id="section_1__item_1__button">See more</a>
                         </div>
             
                         <div class="item" id="section_1__item_2">
@@ -26,7 +26,7 @@
                                 <br> adipisicing elit, sed do eiusmod tempor 
                                 <br> incididunt ut labore et dolore magna aliqua.
                             </div>
-                            <a href="#" class="actions button" id="section_1__item_2__button">See more</a>
+                            <a href="#" class="button" id="section_1__item_2__button">See more</a>
                         </div>
             
                         <div class="item" id="section_1__item_3">
@@ -36,7 +36,7 @@
                                 <br> adipisicing elit, sed do eiusmod tempor 
                                 <br> incididunt ut labore et dolore magna aliqua.
                             </div>
-                                <a href="#" class="button actions" id="section_1__item_3__button">See more</a>
+                            <a href="#" class="button" id="section_1__item_3__button">See more</a>
                         </div>
                     </div>
                 </div>
@@ -56,15 +56,11 @@
                             ut aliquip ex ea commodo consequat.
                         </div>
                         <div class="item">
-                            <span class="icon" id="section_2__icon_1">
-                                <img src='../../assets/images/pages/home/section_5__check_true.png' alt="">
-                            </span>
+                            <img src='../../assets/images/pages/home/section_5__check_true.png' alt="">
                             <span> Lorem ipsum dolor sit amet consectetur</span>
                         </div>
                         <div class="item">
-                            <span class="icon" id="section_2__icon_2">
-                                <img src='../../assets/images/pages/home/section_5__check_true.png' alt="">
-                            </span>
+                            <img src='../../assets/images/pages/home/section_5__check_true.png' alt="">
                             <span>Ut enim ad minim veniam quis nostrud</span>
                         </div>
                         
@@ -82,7 +78,7 @@
                         <div class="item" id="section_3__item_1">
                             <img src='../../assets/images/pages/home/section_3__task.png' alt=''>
                         </div>
-                        <img src='../../assets/images/pages/home/section_3__line.png' alt=''>
+                        <img class="line-item" src='../../assets/images/pages/home/section_3__line.png' alt=''>
                         <div class="item" id="section_3__item_2">
                             <div class="title">Drag & Drop</div>
                             <div class="text" id="section_3__item_2__text_1">Lorem ipsum dolor sit amet,
@@ -96,8 +92,8 @@
                                 laboris nisi ut aliquip ex ea commodo consequat.
                             </div>
                             <div id="section_3__item_2__icon">
-                                <span><i class="fa fa-chevron-circle-left"></i></span>
-                                <span><i class="fa fa-chevron-circle-right"></i></span>
+                                <img src='../../assets/images/pages/home/section_3__arrow_left.png'>
+                                <img src='../../assets/images/pages/home/section_3__arrow_right.png' alt="">
                             </div>
                         </div>
                     </div>
@@ -137,9 +133,9 @@
             <div class="section" id="section_5">
                 <div class="container">
                     <div class="title">Check our pricing!</div>
-                    <div class="list">
+                    <div class="group-card">
                         <div class="card" id="section_5__card_1">
-                            <img src='../../assets/images/pages/home/section_5__card.png' alt=''>
+                            <!-- <img src='../../assets/images/pages/home/section_5__card.png' alt=''> -->
                             <div class="text">
                                 <div class="title">BRONZE PLAN</div>
                                 <div class="pricing">
@@ -164,7 +160,7 @@
                             </div>
                         </div>
                         <div class="card" id="section_5__card_2">
-                            <img src='../../assets/images/pages/home/section_5__card.png' alt=''>
+                            <!-- <img src='../../assets/images/pages/home/section_5__card.png' alt=''> -->
                             <div class="text">
                                 <div class="title">SILVER PLAN</div>
                                 <div class="pricing">
@@ -189,7 +185,7 @@
                             </div>
                         </div>
                         <div class="card" id="section_5__card_3">
-                            <img src='../../assets/images/pages/home/section_5__card.png' alt=''>
+                            <!-- <img src='../../assets/images/pages/home/section_5__card.png' alt=''> -->
                             <div class="text">
                                 <div class="title">GOLD PLAN</div>
                                 <div class="pricing">
@@ -214,7 +210,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="text" id="section_5__description">
+                    <div class="description">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
                         <br>
                         magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
