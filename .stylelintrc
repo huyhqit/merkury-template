@@ -6,6 +6,7 @@
   "rules": {
     "block-no-empty": null,
     "no-eol-whitespace": null,
+    "no-descending-specificity": null,
     "order/order": [
       "custom-properties",
       "declarations"

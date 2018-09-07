@@ -3,66 +3,80 @@
  ******************
  */
 
-#footer{}
+// #footer{}
 
-#footer{
-    background-image: url('../../assets/images/pages/home/footer-background.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    padding-bottom: 60px;
-    .container{
+#footer {
+  background-image: url('../../assets/images/pages/home/footer-background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding-bottom: 60px;
+
+  .container {
     .text-bali-hai;
-    .font-roboto-regular;   
-    
-        font-size: 18px;
-        #footer__copyright{
-            .pull-left;
-            padding-top: 65px;
-            letter-spacing: -0.1px;
-        }
-        #footer__menu{
-            .pull-right;
-            padding-top: 65px;
-            ul{
-                list-style-type: none;
-                li {
-                    .pull-left;
-                    a{
-                        .text-bali-hai;
+    .font-roboto-regular;
 
-                        &:hover{
-                            text-decoration: none;
-                            opacity: 0.85;
-                        }
-                    }
-                    &.text{
-                        &#footer__menu__item1{
-                            margin-right: 50px;
-                        }
-                        &#footer__menu__item2{
-                            margin-right: 55px;
-                        }
-                        &#footer__menu__item3{
-                            margin-right: 48px;
-                        }
-                    }
-                    &.social{
-                        &#footer__menu__item4{
-                            margin-right: 21px;
-                        }
-                        &#footer__menu__item5{
-                            margin-right: 18px;
-                        }
-                        &#footer__menu__item6{
-                            img{
-                                width: 18px;
-                                height: auto;
-                            }
-                        }
-                    }
-                }
-            }
-        }
+    font-size: 18px;
+
+    #footer__copyright {
+      .pull-left;
+
+      padding-top: 65px;
+      letter-spacing: -0.1px;
     }
+
+    #footer__menu {
+      .pull-right;
+
+      padding-top: 65px;
+
+      ul {
+        list-style-type: none;
+
+        li {
+          .pull-left;
+
+          a {
+            .text-bali-hai;
+
+            &:hover {
+              text-decoration: none;
+              opacity: 0.85;
+            }
+          }
+
+          &.text {
+            &#footer__menu__item1 {
+              margin-right: 50px;
+            }
+
+            &#footer__menu__item2 {
+              margin-right: 55px;
+            }
+
+            &#footer__menu__item3 {
+              margin-right: 48px;
+            }
+          }
+
+          &.social {
+            &#footer__menu__item4 {
+              margin-right: 21px;
+            }
+
+            &#footer__menu__item5 {
+              margin-right: 18px;
+            }
+
+            &#footer__menu__item6 {
+              img {
+                width: 18px;
+                height: auto;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
