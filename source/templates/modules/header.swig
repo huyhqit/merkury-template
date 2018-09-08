@@ -1,6 +1,7 @@
 <div id="header">
     <!-- <img src='../../assets/images/pages/home/header__background.png' alt=""> -->
     <div class="container">
+      <!--@FIXME: Class name should be dashed only (-) -->
         <div class="menu_bar" id="header__menu_bar_1">
             Logo
         </div>
