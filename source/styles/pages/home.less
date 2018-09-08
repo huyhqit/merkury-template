@@ -72,7 +72,7 @@
               display: inline-block;
               margin: 48px 0 57px 0;
               padding: 0 87px;
-              border: 2px solid @mytic-color;
+              border: 2px solid @color-mytic;
               border-radius: 80px;
               font-size: 18px;
               text-decoration: none;
@@ -121,7 +121,7 @@
         position: relative;
         padding-bottom: 223px;
 
-        > .list {
+        > .description {
           .pull-left;
 
           > .title {
@@ -150,7 +150,7 @@
             }
           }
 
-          > .item {
+          > .checkbox {
             .text-dodger-blue;
 
             margin: 53px 2px 52px 2px;
@@ -168,7 +168,7 @@
             }
           }
 
-          > .item:last-child {
+          > .checkbox:last-child {
             margin-top: -22px;
 
             img {
@@ -377,7 +377,7 @@
         font-size: 18px;
         padding-bottom: 103px;
 
-        > .group-card {
+        > .cards {
           .row;
 
           margin-top: 74px;
@@ -408,11 +408,11 @@
                 margin-top: 24px;
                 font-size: 72px;
 
-                > .dolla {
+                > .dollar {
                   font-size: 40px;
                 }
 
-                > .time {
+                > .period {
                   .text-bali-hai;
 
                   font-size: 24px;
@@ -457,7 +457,7 @@
                 > .pricing {
                   margin-left: 4px;
 
-                  > .dolla {
+                  > .dollar {
                     margin-left: 14px;
                   }
 
@@ -466,7 +466,7 @@
                     margin-left: -18px;
                   }
 
-                  > .time {
+                  > .period {
                     .text-bali-hai;
 
                     margin-left: -14px;
@@ -493,7 +493,7 @@
                 > .pricing {
                   margin-top: 22px;
 
-                  > .dolla {
+                  > .dollar {
                     margin-left: 14px;
                   }
 
@@ -503,7 +503,7 @@
                     margin-left: -18px;
                   }
 
-                  > .time {
+                  > .period {
                     margin-left: -14px;
                   }
                 }
@@ -531,7 +531,7 @@
                     margin-left: -18px;
                   }
 
-                  > .time {
+                  > .period {
                     margin-left: -11px;
                   }
                 }
@@ -576,7 +576,7 @@
 
           &::before {
             content: '';
-            border-top: 1px solid @geyser-color;
+            border-top: 1px solid @color-geyser;
             width: 230px;
             position: absolute;
             top: 50%;
@@ -586,7 +586,7 @@
 
           &::after {
             content: '';
-            border-top: 1px solid @geyser-color;
+            border-top: 1px solid @color-geyser;
             width: 230px;
             position: absolute;
             top: 50%;

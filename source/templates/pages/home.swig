@@ -1,5 +1,5 @@
-<link rel="stylesheet" href="../../../../../trochoiviet.com/source/styles/components/list.less"><!--@FIXME: Remove this -->
-<script src="../../../../../_outsourcings_/trunglt.luckydraw/webpack.config.js"></script><!--@FIXME: Remove this -->
+<!--@FIXMED: Remove this -->
+<!--@FIXMED: Remove this -->
 {% extends '../layouts/base-1.swig' %}
 
 {% block bodyClass %}page-home{% endblock %}
@@ -44,7 +44,7 @@
 
             <div class="section" id="section_2">
                 <div class="container">
-                    <div class="list"><!--@FIXME: If you want to use .list, it should wrap 2 text blocks with checkbox only-->
+                    <div class="description"><!--@FIXMED: If you want to use .list, it should wrap 2 text blocks with checkbox only-->
                         <div class="title">All You need is a browser!</div>
                         <div class="text" id="section_2__text_1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         <br>
@@ -55,11 +55,11 @@
                             <br>
                             ut aliquip ex ea commodo consequat.
                         </div>
-                        <div class="item">
+                        <div class="checkbox">
                             <img src='../../assets/images/pages/home/section_5__check_true.png' alt="">
                             <span> Lorem ipsum dolor sit amet consectetur</span>
                         </div>
-                        <div class="item">
+                        <div class="checkbox">
                             <img src='../../assets/images/pages/home/section_5__check_true.png' alt="">
                             <span>Ut enim ad minim veniam quis nostrud</span>
                         </div>
@@ -133,15 +133,15 @@
             <div class="section" id="section_5">
                 <div class="container">
                     <div class="title">Check our pricing!</div>
-                    <div class="group-card"><!--@FIXME: It's not semantic enough -->
+                    <div class="cards"><!--@FIXMED: It's not semantic enough -->
                         <div class="card" id="section_5__card_1">
                             <!-- <img src='../../assets/images/pages/home/section_5__card.png' alt=''> -->
                             <div class="text">
                                 <div class="title">BRONZE PLAN</div>
                                 <div class="pricing">
-                                    <span class="dolla">$</span><!--@FIXME: Typo: dollar-->
+                                    <span class="dollar">$</span><!--@FIXMED: Typo: dollar-->
                                     <span class="number">19</span>
-                                    <span class="time">/mon</span><!--@FIXME: It's not time, but period, or you don't need span here-->
+                                    <span class="period">/mon</span><!--@FIXMED: It's not time, but period, or you don't need span here-->
                                 </div>
                                 <div class="list">
                                     <div class="item">
@@ -164,9 +164,9 @@
                             <div class="text">
                                 <div class="title">SILVER PLAN</div>
                                 <div class="pricing">
-                                    <span class="dolla">$</span>
+                                    <span class="dollar">$</span>
                                     <span class="number">49</span>
-                                    <span class="time">/mon</span>
+                                    <span class="period">/mon</span>
                                 </div>
                                 <div class="list">
                                     <div class="item"><!--@FIXME: The image here can be used as background image-->
@@ -189,9 +189,9 @@
                             <div class="text">
                                 <div class="title">GOLD PLAN</div>
                                 <div class="pricing">
-                                    <span class="dolla">$</span>
+                                    <span class="dollar">$</span>
                                     <span class="number">99</span>
-                                    <span class="time">/mon</span>
+                                    <span class="period">/mon</span>
                                 </div>
                                 <div class="list">
                                     <div class="item">
