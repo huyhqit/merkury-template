@@ -8288,6 +8288,13 @@ swig-loader@^2.1.0:
     query-string "^4.3.3"
     swig "^1.4.2"
 
+"swig-loader@https://github.com/knightus/nodejs-swig-loader.git":
+  version "2.1.0"
+  resolved "https://github.com/knightus/nodejs-swig-loader.git#98c65854b8dd5e744988d63876459cd64ac67c16"
+  dependencies:
+    query-string "^4.3.3"
+    swig "^1.4.2"
+
 swig-templates-webpack-plugin@^0.6.2:
   version "0.6.2"
   resolved "https://registry.yarnpkg.com/swig-templates-webpack-plugin/-/swig-templates-webpack-plugin-0.6.2.tgz#d0e228b0f8b2f3c372c8931bf5c4ed9baf3851c2"
