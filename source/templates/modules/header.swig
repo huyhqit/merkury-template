@@ -1,7 +1,7 @@
 <div id="header">
     <!-- <img src='../../assets/images/pages/home/header__background.png' alt=""> -->
     <div class="container">
-      <!--@FIXMED: Class name should be dashed only (-) -->
+      <!--@FIXED: Class name should be dashed only (-) -->
         <div class="menu-bar" id="header__menu_bar_1">
             Logo
         </div>

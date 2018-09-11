@@ -1,5 +1,5 @@
-<!--@FIXMED: Remove this -->
-<!--@FIXMED: Remove this -->
+<!--@FIXED: Remove this -->
+<!--@FIXED: Remove this -->
 {% extends '../layouts/base-1.swig' %}
 
 {% block bodyClass %}page-home{% endblock %}
@@ -44,7 +44,7 @@
 
             <div class="section" id="section_2">
                 <div class="container">
-                    <div class="description"><!--@FIXMED: If you want to use .list, it should wrap 2 text blocks with checkbox only-->
+                    <div class="description"><!--@FIXED: If you want to use .list, it should wrap 2 text blocks with checkbox only-->
                         <div class="title">All You need is a browser!</div>
                         <div class="text" id="section_2__text_1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         <br>
@@ -133,15 +133,15 @@
             <div class="section" id="section_5">
                 <div class="container">
                     <div class="title">Check our pricing!</div>
-                    <div class="cards"><!--@FIXMED: It's not semantic enough -->
+                    <div class="cards"><!--@FIXED: It's not semantic enough -->
                         <div class="card" id="section_5__card_1">
                             <!-- <img src='../../assets/images/pages/home/section_5__card.png' alt=''> -->
                             <div class="text">
                                 <div class="title">BRONZE PLAN</div>
                                 <div class="pricing">
-                                    <span class="dollar">$</span><!--@FIXMED: Typo: dollar-->
+                                    <span class="dollar">$</span><!--@FIXED: Typo: dollar-->
                                     <span class="number">19</span>
-                                    <span class="period">/mon</span><!--@FIXMED: It's not time, but period, or you don't need span here-->
+                                    <span class="period">/mon</span><!--@FIXED: It's not time, but period, or you don't need span here-->
                                 </div>
                                 <ul class="list">
                                     <li class="item do">
@@ -169,7 +169,7 @@
                                     <span class="period">/mon</span>
                                 </div>
                                 <ul class="list">
-                                    <li class="item do"><!--@FIXME: The image here can be used as background image-->
+                                    <li class="item do"><!--@FIXED: The image here can be used as background image-->
                                         <!-- <img src='../../assets/images/pages/home/section_5__check_true.png' alt=""> -->
                                         <span>Lorem ipsum dolor sit am</span></li>
                                     <li class="item do">
