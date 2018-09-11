@@ -120,7 +120,7 @@ const webpackConfig = {
       // template: './source/templates/index.swig',
       title: 'Open Charity',
       filename: 'pages/home.html',
-      template: `${APP_DIR},'/templates/pages/home.swig'`,
+      template: `${APP_DIR}/templates/pages/home.swig`,
     }),
     // new AddAssetHtmlPlugin({ filepath: path.resolve(APP_DIR, 'source/scripts/vendors.js') }),
     new HtmlWebpackIncludeAssetsPlugin({
