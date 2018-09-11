@@ -1,7 +1,7 @@
 {
   "directory": "source/vendors/",
   "scripts": {
-    "postinstall": "gulp scripts:vendors:compile"
+    "postinstall": "gulp production:scripts:vendors:compile"
   },
   "storage": {
     "packages": ".bower/packages",

@@ -8,6 +8,11 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const HtmlWebpackIncludeAssetsPlugin = require('html-webpack-include-assets-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const HtmlCriticalWebpackPlugin = require('html-critical-webpack-plugin');
+const { ImageminWebpackPlugin } = require('imagemin-webpack');
+const imageminGifsicle = require('imagemin-gifsicle');
+const imageminJpegtran = require('imagemin-jpegtran');
+const imageminOptipng = require('imagemin-optipng');
+const imageminSvgo = require('imagemin-svgo');
 
 const { getIfUtils, removeEmpty } = require('webpack-config-utils');
 
@@ -150,6 +155,17 @@ const webpackConfig = {
       append: false,
       hash: true,
     }),
+    ifProduction(new ImageminWebpackPlugin({
+      imageminOptions: {
+        cache: true,
+        plugins: [
+          imageminGifsicle(),
+          imageminJpegtran(),
+          imageminOptipng(),
+          imageminSvgo(),
+        ],
+      },
+    })),
     ifProduction(new HtmlCriticalWebpackPlugin({
       base: BUILD_DIR,
       src: 'home.html',
