@@ -422,12 +422,25 @@
               > .list {
                 margin-top: 20px;
                 line-height: 41px;
+                list-style-type: none;
 
                 > .item {
-                  img {
-                    width: 24px;
-                    height: auto;
-                    display: inline-block;
+                  // img {
+                  //   width: 24px;
+                  //   height: auto;
+                  //   display: inline-block;
+                  // }
+
+                  &.do {
+                    background-image: url('../../assets/images/pages/home/section_5__check_true.png');
+                    background-repeat: no-repeat;
+                    background-position: 15px 11px;
+                  }
+
+                  &.dont {
+                    background-image: url('../../assets/images/pages/home/section_5__check_false.png');
+                    background-repeat: no-repeat;
+                    background-position: 15px 11px;
                   }
 
                   span {
@@ -475,10 +488,15 @@
 
                 > .list {
                   > .item {
-                    img {
-                      margin: 0 4px 0 0;
-                      float: none !important;
+                    &.do {
                     }
+
+                    &.dont {
+                    }
+                    // img {
+                    //   margin: 0 4px 0 0;
+                    //   float: none !important;
+                    // }
                   }
                 }
               }
@@ -537,10 +555,15 @@
                 }
 
                 > .list {
+                  padding-left: 43px;
+
                   > .item {
-                    img {
-                      float: none !important;
-                      margin-left: 14px;
+                    &.do {
+                      background-position: 26px 11px;
+                    }
+
+                    &.dont {
+                      background-position: 15px 11px;
                     }
                   }
                 }
@@ -552,10 +575,10 @@
         > .description {
           .text-bali-hai;
 
-          padding-top: 140px;
+          padding-top: 131px;
           line-height: 29px;
           padding-left: 19px;
-          letter-spacing: -0.1px;
+          letter-spacing: 0.1px;
         }
 
         #section_5__button {

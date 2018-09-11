@@ -143,20 +143,20 @@
                                     <span class="number">19</span>
                                     <span class="period">/mon</span><!--@FIXMED: It's not time, but period, or you don't need span here-->
                                 </div>
-                                <div class="list">
-                                    <div class="item">
-                                        <img src='../../assets/images/pages/home/section_5__check_true.png' alt="">
-                                        <span>Lorem ipsum dolor sit am</span></div>
-                                    <div class="item">
-                                        <img src='../../assets/images/pages/home/section_5__check_true.png' alt="">
-                                        <span>Lorem ipsum dolor sit am</span></div>
-                                    <div class="item">
-                                        <img src='../../assets/images/pages/home/section_5__check_false.png' alt="">
-                                        <span>Lorem ipsum dolor sit am</span></div>
-                                    <div class="item">
-                                        <img src='../../assets/images/pages/home/section_5__check_false.png' alt="">
-                                        <span>Lorem ipsum dolor sit am</span></div>
-                                </div>
+                                <ul class="list">
+                                    <li class="item do">
+                                        <!-- <img src='../../assets/images/pages/home/section_5__check_true.png' alt=""> -->
+                                      <span>Lorem ipsum dolor sit am</span></li>
+                                    <li class="item do">
+                                        <!-- <img src='../../assets/images/pages/home/section_5__check_true.png' alt=""> -->
+                                      <span>Lorem ipsum dolor sit am</span></li>
+                                    <li class="item dont">
+                                        <!-- <img src='../../assets/images/pages/home/section_5__check_false.png' alt=""> -->
+                                      <span>Lorem ipsum dolor sit am</span></li>
+                                    <li class="item dont">
+                                        <!-- <img src='../../assets/images/pages/home/section_5__check_false.png' alt=""> -->
+                                      <span>Lorem ipsum dolor sit am</span></li>
+                                </ul>
                             </div>
                         </div>
                         <div class="card" id="section_5__card_2">
@@ -168,20 +168,20 @@
                                     <span class="number">49</span>
                                     <span class="period">/mon</span>
                                 </div>
-                                <div class="list">
-                                    <div class="item"><!--@FIXME: The image here can be used as background image-->
-                                        <img src='../../assets/images/pages/home/section_5__check_true.png' alt="">
-                                        <span>Lorem ipsum dolor sit am</span></div>
-                                    <div class="item">
-                                        <img src='../../assets/images/pages/home/section_5__check_true.png' alt="">
-                                        <span>Lorem ipsum dolor sit am</span></div>
-                                    <div class="item">
-                                        <img src='../../assets/images/pages/home/section_5__check_true.png' alt="">
-                                        <span>Lorem ipsum dolor sit am</span></div>
-                                    <div class="item">
-                                        <img src='../../assets/images/pages/home/section_5__check_false.png' alt="">
-                                        <span>Lorem ipsum dolor sit am</span></div>
-                                </div>
+                                <ul class="list">
+                                    <li class="item do"><!--@FIXME: The image here can be used as background image-->
+                                        <!-- <img src='../../assets/images/pages/home/section_5__check_true.png' alt=""> -->
+                                        <span>Lorem ipsum dolor sit am</span></li>
+                                    <li class="item do">
+                                        <!-- <img src='../../assets/images/pages/home/section_5__check_true.png' alt=""> -->
+                                        <span>Lorem ipsum dolor sit am</span></li>
+                                    <li class="item do">
+                                        <!-- <img src='../../assets/images/pages/home/section_5__check_true.png' alt=""> -->
+                                        <span>Lorem ipsum dolor sit am</span></li>
+                                    <li class="item dont">
+                                        <!-- <img src='../../assets/images/pages/home/section_5__check_false.png' alt=""> -->
+                                        <span>Lorem ipsum dolor sit am</span></li>
+                                </ul>
                             </div>
                         </div>
                         <div class="card" id="section_5__card_3">
@@ -193,20 +193,20 @@
                                     <span class="number">99</span>
                                     <span class="period">/mon</span>
                                 </div>
-                                <div class="list">
-                                    <div class="item">
-                                        <img src='../../assets/images/pages/home/section_5__check_true.png' alt="">
-                                        <span>Lorem ipsum dolor sit am</span></div>
-                                    <div class="item">
-                                        <img src='../../assets/images/pages/home/section_5__check_true.png' alt="">
-                                        <span>Lorem ipsum dolor sit am</span></div>
-                                    <div class="item">
-                                        <img src='../../assets/images/pages/home/section_5__check_true.png' alt="">
-                                        <span>Lorem ipsum dolor sit am</span></div>
-                                    <div class="item">
-                                        <img src='../../assets/images/pages/home/section_5__check_true.png' alt="">
-                                        <span>Lorem ipsum dolor sit am</span></div>
-                                </div>
+                                <ul class="list">
+                                    <li class="item do">
+                                        <!-- <img src='../../assets/images/pages/home/section_5__check_true.png' alt=""> -->
+                                        <span>Lorem ipsum dolor sit am</span></li>
+                                    <li class="item do">
+                                        <!-- <img src='../../assets/images/pages/home/section_5__check_true.png' alt=""> -->
+                                        <span>Lorem ipsum dolor sit am</span></li>
+                                    <li class="item do">
+                                        <!-- <img src='../../assets/images/pages/home/section_5__check_true.png' alt=""> -->
+                                        <span>Lorem ipsum dolor sit am</span></li>
+                                    <li class="item do">
+                                        <!-- <img src='../../assets/images/pages/home/section_5__check_true.png' alt=""> -->
+                                        <span>Lorem ipsum dolor sit am</span></li>
+                                </ul>
                             </div>
                         </div>
                     </div>
