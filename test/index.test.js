@@ -1,6 +1,6 @@
 describe('Visual regession test', () => {
   beforeAll(async () => {
-    await page.goto('http://localhost:8080/pages/home.html');
+    await page.goto('http://localhost:8080/home.html');
     await page.waitFor(5000);
   }, 30000);
 

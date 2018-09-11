@@ -1,28 +1,38 @@
 const appRootDir = require('app-root-dir').get();
-const path = require('path');
+const { resolve } = require('path');
+const Dotenv = require('dotenv-webpack');
+
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const SizePlugin = require('size-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const HtmlWebpackIncludeAssetsPlugin = require('html-webpack-include-assets-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
+const HtmlCriticalWebpackPlugin = require('html-critical-webpack-plugin');
 
-const BUILD_DIR = path.resolve(appRootDir, 'build');
-const APP_DIR = path.resolve(appRootDir, 'source');
+const { getIfUtils, removeEmpty } = require('webpack-config-utils');
+
+const { ifProduction, ifDevelopment } = getIfUtils(process.env.NODE_ENV);
+
+const BUILD_DIR = resolve(appRootDir, 'build');
+const APP_DIR = resolve(appRootDir, 'source');
 
 const webpackConfig = {
+  mode: ifProduction('production', 'development'),
   context: appRootDir,
-  entry: [
+  entry: removeEmpty([
     './source/scripts/index.js',
-  ],
+  ]),
   output: {
     path: BUILD_DIR,
     filename: '[name].[hash].js',
-    publicPath: '/',
+    publicPath: ifDevelopment('/'),
   },
   performance: {
-    hints: false,
+    hints: ifProduction('warning', false),
   },
   devtool: 'source-map',
   module: {
-    rules: [
+    rules: removeEmpty([
       {
         test: /\.(js|jsx)$/,
         exclude: /(node_modules|vendors\.js)/,
@@ -33,7 +43,6 @@ const webpackConfig = {
               cacheDirectory: true,
             },
           },
-          // { loader: 'eslint-loader', options: { emitWarning: true } },
         ],
       },
       {
@@ -44,14 +53,14 @@ const webpackConfig = {
       {
         test: /\.css$/,
         use: [
-          'style-loader',
+          ifProduction(MiniCssExtractPlugin.loader, 'style-loader'),
           'css-loader?modules',
         ],
       },
       {
         test: /\.less$/,
         use: [
-          'style-loader',
+          ifProduction(MiniCssExtractPlugin.loader, 'style-loader'),
           'css-loader',
           'less-loader',
         ],
@@ -98,11 +107,8 @@ const webpackConfig = {
           })}`,
           'swig-loader',
         ],
-      }, {
-        test: /jquery\/src\/selector\.js$/,
-        loader: 'amd-define-factory-patcher-loader',
       },
-    ],
+    ]),
   },
   resolve: {
     modules: [
@@ -110,7 +116,23 @@ const webpackConfig = {
     ],
     extensions: ['.json', '.js', '.jsx'],
   },
-  plugins: [
+  stats: {
+    assets: false,
+    cached: false,
+    cachedAssets: false,
+    colors: true,
+    version: false,
+    hash: true,
+    timings: true,
+    chunks: false,
+    chunkModules: false,
+    entrypoints: false,
+    modules: false,
+  },
+  plugins: removeEmpty([
+    new Dotenv(),
+    ifDevelopment(new SizePlugin()),
+    ifProduction(new MiniCssExtractPlugin()),
     new CopyWebpackPlugin([
       {
         from: 'source/scripts/vendors.js',
@@ -119,16 +141,29 @@ const webpackConfig = {
     new HtmlWebpackPlugin({
       // template: './source/templates/index.swig',
       title: 'Open Charity',
-      filename: 'pages/home.html',
+      filename: 'home.html',
       template: `${APP_DIR}/templates/pages/home.swig`,
     }),
-    // new AddAssetHtmlPlugin({ filepath: path.resolve(APP_DIR, 'source/scripts/vendors.js') }),
+    // new AddAssetHtmlPlugin({ filepath: resolve(APP_DIR, 'source/scripts/vendors.js') }),
     new HtmlWebpackIncludeAssetsPlugin({
       assets: ['vendors.js'],
       append: false,
       hash: true,
     }),
-  ],
+    ifProduction(new HtmlCriticalWebpackPlugin({
+      base: BUILD_DIR,
+      src: 'home.html',
+      dest: 'home.html',
+      inline: true,
+      minify: true,
+      extract: true,
+      width: 1920,
+      height: 1080,
+      penthouse: {
+        blockJSRequests: false,
+      },
+    })),
+  ]),
 };
 
 // _.forEach(glob.sync("./source/templates/pages/*.swig"), function (file) {
