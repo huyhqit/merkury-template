@@ -3,30 +3,72 @@
  ******************
  */
 
+//@FIXED: Where is other file types (woff, woff2, eot, svg,...)?
+//@FIXED: The font's filename should be normal case (roboto-thin.ttf)
 @font-face {
-  font-family: 'roboto-thin';
-  src: url('../../assets/fonts/Roboto-Thin.ttf') format('truetype');
+  font-family: 'Roboto Thin';
+
+  /** IE9 Compat Modes **/
+  src: url('../../assets/fonts/roboto-thin.eot') format('truetype');
+
+  /** IOS lagacy **/
+  src:
+    url('../../assets/fonts/roboto-thin.eot') format("embedded-opentype"),
+    url('../../assets/fonts/roboto-thin.woff') format("woff"),
+    url('../../assets/fonts/roboto-thin.woff2') format("woff2"),
+    url('../../assets/fonts/roboto-thin.ttf') format("truetype"),
+    url('../../assets/fonts/roboto-thin.svg') format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'roboto-regular';
-  src: url('../../assets/fonts/Roboto-Regular.ttf') format('truetype');
+  font-family: 'Roboto Regular';
+
+  /** IE9 Compat Modes **/
+  src: url('../../assets/fonts/roboto-regular.eot') format('truetype');
+
+  /** IOS lagacy **/
+  src:
+    url('../../assets/fonts/roboto-regular.eot') format("embedded-opentype"),
+    url('../../assets/fonts/roboto-regular.woff') format("woff"),
+    url('../../assets/fonts/roboto-regular.woff2') format("woff2"),
+    url('../../assets/fonts/roboto-regular.ttf') format("truetype"),
+    url('../../assets/fonts/roboto-regular.svg') format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'roboto-medium';
-  src: url('../../assets/fonts/Roboto-Medium.ttf') format('truetype');
+  font-family: 'Roboto Medium';
+
+  /** IE9 Compat Modes **/
+  src: url('../../assets/fonts/roboto-medium.ttf') format('truetype');
+
+  /** IOS lagacy **/
+  src:
+    url('../../assets/fonts/roboto-medium.eot') format("embedded-opentype"),
+    url('../../assets/fonts/roboto-medium.woff') format("woff"),
+    url('../../assets/fonts/roboto-medium.woff2') format("woff2"),
+    url('../../assets/fonts/roboto-medium.ttf') format("truetype"),
+    url('../../assets/fonts/roboto-medium.svg') format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'roboto-bold';
-  src: url('../../assets/fonts/Roboto-Bold.ttf') format('truetype');
+  font-family: 'Roboto Bold';
+
+  /** IE9 Compat Modes **/
+  src: url('../../assets/fonts/roboto-bold.ttf') format('truetype');
+
+  /** IOS lagacy **/
+  src:
+    url('../../assets/fonts/roboto-bold.eot') format("embedded-opentype"),
+    url('../../assets/fonts/roboto-bold.woff') format("woff"),
+    url('../../assets/fonts/roboto-bold.woff2') format("woff2"),
+    url('../../assets/fonts/roboto-bold.ttf') format("truetype"),
+    url('../../assets/fonts/roboto-bold.svg') format("svg");
   font-weight: normal;
   font-style: normal;
 }

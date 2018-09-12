@@ -1,10 +1,11 @@
 <div id="header">
     <!-- <img src='../../assets/images/pages/home/header__background.png' alt=""> -->
     <div class="container">
-        <div class="menu_bar" id="header__menu_bar_1">
+      <!--@FIXED: Class name should be dashed only (-) -->
+        <div class="menu-bar" id="header__menu_bar_1">
             Logo
         </div>
-        <div class="menu_bar" id="header__menu_bar_2">
+        <div class="menu-bar" id="header__menu_bar_2">
             <div class="list">
                 <a href="#" class="item" id="header_menu_bar_2__item_1">Features</a>
                 <a href="#" class="item" id="header_menu_bar_2__item_2">Pricing</a>

@@ -35,14 +35,14 @@
         > .list {
           .row;
 
-          padding-top: 253px;
+          padding-top: 193px;
 
           > .item {
             .make-md-column(4);
 
             > .thumbnail {
               img {
-                width: 81px;
+                width: 180px;
                 height: auto;
               }
             }
@@ -50,7 +50,7 @@
             > .title {
               .font-roboto-bold;
 
-              margin-top: 50px;
+              margin-top: 6px;
               font-size: 24px;
               letter-spacing: 0.4px;
             }
@@ -72,7 +72,7 @@
               display: inline-block;
               margin: 48px 0 57px 0;
               padding: 0 87px;
-              border: 2px solid @mytic-color;
+              border: 2px solid @color-mytic;
               border-radius: 80px;
               font-size: 18px;
               text-decoration: none;
@@ -86,28 +86,19 @@
 
           #section_1__item_2 {
             > .thumbnail {
-              img {
-                margin-top: -4px;
-                width: 91px;
-              }
             }
 
             > .title {
-              margin-top: 44px;
             }
           }
 
           #section_1__item_3 {
             > .thumbnail {
               img {
-                margin-top: -2px;
-                margin-right: 189px;
               }
             }
 
             > .title {
-              margin-top: 48px;
-              padding-left: 3px;
             }
           }
         }
@@ -121,7 +112,7 @@
         position: relative;
         padding-bottom: 223px;
 
-        > .list {
+        > .description {
           .pull-left;
 
           > .title {
@@ -150,7 +141,7 @@
             }
           }
 
-          > .item {
+          > .checkbox {
             .text-dodger-blue;
 
             margin: 53px 2px 52px 2px;
@@ -168,7 +159,7 @@
             }
           }
 
-          > .item:last-child {
+          > .checkbox:last-child {
             margin-top: -22px;
 
             img {
@@ -377,7 +368,7 @@
         font-size: 18px;
         padding-bottom: 103px;
 
-        > .group-card {
+        > .cards {
           .row;
 
           margin-top: 74px;
@@ -408,11 +399,11 @@
                 margin-top: 24px;
                 font-size: 72px;
 
-                > .dolla {
+                > .dollar {
                   font-size: 40px;
                 }
 
-                > .time {
+                > .period {
                   .text-bali-hai;
 
                   font-size: 24px;
@@ -422,12 +413,25 @@
               > .list {
                 margin-top: 20px;
                 line-height: 41px;
+                list-style-type: none;
 
                 > .item {
-                  img {
-                    width: 24px;
-                    height: auto;
-                    display: inline-block;
+                  // img {
+                  //   width: 24px;
+                  //   height: auto;
+                  //   display: inline-block;
+                  // }
+
+                  &.do {
+                    background-image: url('../../assets/images/pages/home/section_5__check_true.png');
+                    background-repeat: no-repeat;
+                    background-position: 15px 11px;
+                  }
+
+                  &.dont {
+                    background-image: url('../../assets/images/pages/home/section_5__check_false.png');
+                    background-repeat: no-repeat;
+                    background-position: 15px 11px;
                   }
 
                   span {
@@ -457,7 +461,7 @@
                 > .pricing {
                   margin-left: 4px;
 
-                  > .dolla {
+                  > .dollar {
                     margin-left: 14px;
                   }
 
@@ -466,7 +470,7 @@
                     margin-left: -18px;
                   }
 
-                  > .time {
+                  > .period {
                     .text-bali-hai;
 
                     margin-left: -14px;
@@ -475,10 +479,15 @@
 
                 > .list {
                   > .item {
-                    img {
-                      margin: 0 4px 0 0;
-                      float: none !important;
+                    &.do {
                     }
+
+                    &.dont {
+                    }
+                    // img {
+                    //   margin: 0 4px 0 0;
+                    //   float: none !important;
+                    // }
                   }
                 }
               }
@@ -493,7 +502,7 @@
                 > .pricing {
                   margin-top: 22px;
 
-                  > .dolla {
+                  > .dollar {
                     margin-left: 14px;
                   }
 
@@ -503,7 +512,7 @@
                     margin-left: -18px;
                   }
 
-                  > .time {
+                  > .period {
                     margin-left: -14px;
                   }
                 }
@@ -531,16 +540,21 @@
                     margin-left: -18px;
                   }
 
-                  > .time {
+                  > .period {
                     margin-left: -11px;
                   }
                 }
 
                 > .list {
+                  padding-left: 43px;
+
                   > .item {
-                    img {
-                      float: none !important;
-                      margin-left: 14px;
+                    &.do {
+                      background-position: 26px 11px;
+                    }
+
+                    &.dont {
+                      background-position: 15px 11px;
                     }
                   }
                 }
@@ -552,10 +566,10 @@
         > .description {
           .text-bali-hai;
 
-          padding-top: 140px;
+          padding-top: 131px;
           line-height: 29px;
           padding-left: 19px;
-          letter-spacing: -0.1px;
+          letter-spacing: 0.1px;
         }
 
         #section_5__button {
@@ -576,7 +590,7 @@
 
           &::before {
             content: '';
-            border-top: 1px solid @geyser-color;
+            border-top: 1px solid @color-geyser;
             width: 230px;
             position: absolute;
             top: 50%;
@@ -586,7 +600,7 @@
 
           &::after {
             content: '';
-            border-top: 1px solid @geyser-color;
+            border-top: 1px solid @color-geyser;
             width: 230px;
             position: absolute;
             top: 50%;
@@ -601,7 +615,7 @@
   position: relative;
 
   #overlay {
-    display: none;
+    // display: none;
     position: absolute;
     top: 0;
     left: 0;
