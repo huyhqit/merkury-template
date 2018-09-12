@@ -4,3 +4,4 @@ build/
 node_modules/
 source/vendors/
 source/scripts/vendors.js
+test/__image_snapshots__/__diff_output__
