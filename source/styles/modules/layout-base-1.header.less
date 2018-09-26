@@ -17,7 +17,7 @@
     .clearfix;
 
     position: relative;
-    padding-bottom: 584px;
+    padding-bottom: 655px;
 
     //@FIXED: Wrong naming convention
     > .menu-bar {
@@ -40,6 +40,7 @@
 
     #header__menu_bar_2 {
       .list {
+        // position: absolute;
         .pull-right;
 
         padding-top: 87px;
@@ -63,6 +64,12 @@
               background-color: @color-biscay;
             }
           }
+        }
+
+        .icon {
+          .btn;
+
+          display: none;
         }
 
         #header_menu_bar_2__item_1 {
@@ -94,6 +101,7 @@
 
     #header__body {
       position: relative;
+      top: 70px;
       .text-center;
 
       .title {
@@ -104,7 +112,7 @@
       }
 
       #header__body__title {
-        padding-top: 190px;
+        padding-top: 120px;
       }
 
       #header__body__text {
@@ -132,10 +140,49 @@
         width: 882px;
         height: auto;
         position: absolute;
-        top: 607px;
+        top: 536px;
         left: 0;
         right: 0;
         margin: -68px auto;
+      }
+    }
+  }
+
+  @media screen and (max-width: 640px) {
+    // overflow-x: hidden;
+    .container {
+      #header__menu_bar_1 {
+        margin-left: -89px;
+        background-size: 115px auto;
+      }
+
+      #header__menu_bar_2 {
+        .list {
+          .item {
+            display: none;
+          }
+
+          .item:hover {
+            opacity: 0.5;
+            cursor: pointer;
+          }
+
+          .icon {
+            .btn;
+
+            color: black;
+            margin-left: 100px;
+          }
+        }
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+        left: 0;
+      }
+
+      #header__body {
       }
     }
   }
