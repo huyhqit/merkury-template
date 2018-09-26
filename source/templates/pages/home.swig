@@ -79,10 +79,11 @@
             <div class="section" id="section_3">
                 <div class="container">
                     <div class="list">
+                        <img class="line-item" src='../../assets/images/pages/home/section_3__line.png' alt=''>
                         <div class="item" id="section_3__item_1">
                             <img src='../../assets/images/pages/home/section_3__task.png' alt=''>
                         </div>
-                        <img class="line-item" src='../../assets/images/pages/home/section_3__line.png' alt=''>
+
                         <div class="item" id="section_3__item_2">
                             <div class="title">Drag & Drop</div>
                             <div class="text" id="section_3__item_2__text_1">Lorem ipsum dolor sit amet,

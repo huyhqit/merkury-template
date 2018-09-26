@@ -200,7 +200,7 @@
 
       > .container {
         position: relative;
-        padding-bottom: 185px;
+        padding-bottom: 10px;
 
         > .list {
           margin: 100px 0;
@@ -217,8 +217,9 @@
 
             &#section_3__item_1 {
               img {
-                left: -146px;
-                top: 61px;
+                position: static;
+                margin-left: -160px;
+                margin-top: 60px;
               }
             }
 
@@ -644,15 +645,41 @@
             }
           }
         }
-        &#section_3 {}
-        &#section_4 {}
-        &#section_5 {}
       }
+
+      &#section_3 {
+        > .container {
+          > .list {
+            > .item {
+              &#section_3__item_1 {
+                img {
+                  margin: auto;
+                  width: 100%;
+                  height: auto;
+                }
+              }
+
+              &#section_3__item_2 {
+                // .text-center;
+                padding-top: 0;
+
+                > #section_3__item_2__icon {
+                  img {
+                    top: 390px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      &#section_4 {}
+      &#section_5 {}
     }
   }
 
   #overlay {
-    display: none;
+    // display: none;
     position: absolute;
     top: 0;
     left: 0;
