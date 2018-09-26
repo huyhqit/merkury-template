@@ -167,11 +167,29 @@
             cursor: pointer;
           }
 
-          .icon {
-            .btn;
+          .sidebar-overlay {
+            &.button {
+              .btn;
+              .text-white;
 
-            color: black;
-            margin-left: 100px;
+              margin-left: -140px;
+            }
+          }
+
+          &.responsive {
+            position: relative;
+          }
+
+          &.responsive .icon {
+            position: absolute;
+            right: 0;
+            top: 0;
+          }
+
+          &.responsive a {
+            float: none;
+            display: block;
+            text-align: left;
           }
         }
       }
@@ -183,6 +201,17 @@
       }
 
       #header__body {
+        #header__body__title {
+          font-size: 36px;
+        }
+
+        #header__body__text {
+          font-size: 24px;
+        }
+
+        img {
+          top: 456px;
+        }
       }
     }
   }

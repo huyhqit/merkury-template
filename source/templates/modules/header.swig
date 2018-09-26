@@ -12,7 +12,7 @@
                 <a href="#" class="item" id="header_menu_bar_2__item_3">Blog</a>
                 <a href="#" class="item" id="header_menu_bar_2__item_4">Contact</a>
                 <a href="#" class="button item" id="header_menu_bar_2__item_5">Login</a>
-                <a class="icon">
+                <a class="button sidebar-overlay">
                   <i class="fa fa-bars"></i>
                 </a>
             </div>
