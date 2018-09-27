@@ -694,7 +694,56 @@
           }
         }
       }
-      &#section_5 {}
+
+      &#section_5 {
+        > .container {
+          > .cards {
+            > .card {
+              > .text {
+                > .list {
+                  > .item {
+                    &.do {
+                      background-position: 80px 8px;
+                    }
+
+                    &.dont {
+                      background-position: 80px 8px;
+                    }
+                  }
+                }
+              }
+
+              &#section_5__card_3 {
+                > .text {
+                  > .list {
+                    > .item {
+                      &.do {
+                        background-position: 100px 8px;
+                      }
+
+                      &.dont {
+                        background-position: 100px 8px;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+
+          > #section_5__button {
+            &::before {
+              width: 160px;
+              left: -90px;
+            }
+
+            &::after {
+              width: 160px;
+              left: 280px;
+            }
+          }
+        }
+      }
     }
   }
 
