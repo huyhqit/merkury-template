@@ -111,8 +111,9 @@
                         <br>
                         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     </div>
-                    <img id='section_4__picture' src='../../assets/images/pages/home/section_4__item_1.png' alt=''>
-                    <div class="object" id="section_4__object_1">
+
+                    <div class="block">
+                      <div class="object" id="section_4__object_1">
                         <img src='../../assets/images/pages/home/section_4__line_left.png' alt="">
                         <div class="text">
                             <div class="title">Clean & modern layout</div>
@@ -120,8 +121,9 @@
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                             </div>
                         </div>
-                    </div>
-                    <div class="object" id="section_4__object_2">
+                      </div>
+                      <img id='section_4__picture' src='../../assets/images/pages/home/section_4__item_1.png' alt=''>
+                      <div class="object" id="section_4__object_2">
                         <img src='../../assets/images/pages/home/section_4__line_right.png' alt=''>
                         <div class="text">
                             <div class="title">Easy to customize</div>
@@ -129,7 +131,8 @@
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                             </div>
                         </div>
-                    </div>
+                      </div>
+                  </div>
                 </div>
             </div>
 
