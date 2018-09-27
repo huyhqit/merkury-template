@@ -29,3 +29,14 @@ applicationModules.forEach(({
 $(() => {
   application.start();
 });
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+        document.getElementById("back_to_top_botton").style.display = "block";
+    } else {
+        document.getElementById("back_to_top_botton").style.display = "none";
+    }
+}
