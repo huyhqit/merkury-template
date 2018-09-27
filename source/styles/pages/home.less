@@ -726,15 +726,24 @@
         > .container {
           > .cards {
             > .card {
+              padding-left: 0;
+              padding-right: 0;
+
               > .text {
+                > .pricing {
+                  margin-top: 0 !important;
+                }
+
                 > .list {
+                  padding-left: 30px;
+
                   > .item {
                     &.do {
-                      background-position: 80px 8px;
+                      background-position: 0 8px;
                     }
 
                     &.dont {
-                      background-position: 80px 8px;
+                      background-position: 0 8px;
                     }
                   }
                 }
@@ -745,11 +754,11 @@
                   > .list {
                     > .item {
                       &.do {
-                        background-position: 100px 8px;
+                        background-position: 10px 8px;
                       }
 
                       &.dont {
-                        background-position: 100px 8px;
+                        background-position: 10px 8px;
                       }
                     }
                   }
