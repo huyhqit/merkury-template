@@ -17,68 +17,65 @@
     .clearfix;
 
     position: relative;
-    padding-bottom: 584px;
+    padding-bottom: 655px;
 
     //@FIXED: Wrong naming convention
     > .menu-bar {
-      height: 68px;
-      width: auto;
-    }
+      > #header__menu_bar_1 {
+        .pull-left;
 
-    #header__menu_bar_1 {
-      .pull-left;
+        margin-left: -139px;
+        margin-top: 64px;
+        width: 300px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-image: url('@{image-uri-base}/logo.png');
+        background-size: 236px auto;
+        text-indent: -9999px;
+      }
 
-      margin-left: -139px;
-      margin-top: 64px;
-      width: 300px;
-      background-repeat: no-repeat;
-      background-position: center center;
-      background-image: url('@{image-uri-base}/logo.png');
-      background-size: 236px auto;
-      text-indent: -9999px;
-    }
+      > #header__menu_bar_2 {
+        .list {
+          .pull-right;
 
-    #header__menu_bar_2 {
-      .list {
-        .pull-right;
+          padding-top: 87px;
+          margin-right: -111px;
 
-        padding-top: 87px;
-        margin-right: -111px;
+          a {
+            .text-white;
+            .font-roboto-regular;
 
-        a {
-          .text-white;
-          .font-roboto-regular;
-
-          font-size: 18px;
-
-          &:hover {
-            text-decoration: none;
-          }
-
-          &.button {
             font-size: 18px;
-            padding: 10px 40px 14px 43px;
-            // border: 2px solid @color-biscay-blue;
+
             &:hover {
-              background-color: @color-biscay;
+              text-decoration: none;
+            }
+
+            &.button {
+              font-size: 18px;
+              padding: 10px 40px 14px 43px;
+              // border: 2px solid @color-biscay-blue;
+              &:hover {
+                background-color: @color-biscay;
+              }
             }
           }
-        }
 
-        #header_menu_bar_2__item_1 {
-          margin-right: 45px;
-        }
+          #header_menu_bar_2__item_1 {
+            margin-right: 45px;
+          }
 
-        #header_menu_bar_2__item_2 {
-          margin-right: 45px;
-        }
+          #header_menu_bar_2__item_2 {
+            margin-right: 45px;
+          }
 
-        #header_menu_bar_2__item_3 {
-          margin-right: 51px;
-        }
+          #header_menu_bar_2__item_3 {
+            margin-right: 51px;
+          }
 
-        #header_menu_bar_2__item_4 {
-          margin-right: 44px;
+          #header_menu_bar_2__item_4 {
+            margin-right: 44px;
+          }
         }
       }
     }
@@ -94,6 +91,8 @@
 
     #header__body {
       position: relative;
+      top: 70px;
+
       .text-center;
 
       .title {
@@ -104,7 +103,7 @@
       }
 
       #header__body__title {
-        padding-top: 190px;
+        padding-top: 120px;
       }
 
       #header__body__text {
@@ -132,10 +131,80 @@
         width: 882px;
         height: auto;
         position: absolute;
-        top: 607px;
+        top: 536px;
         left: 0;
         right: 0;
         margin: -68px auto;
+      }
+    }
+  }
+
+  @media screen and (max-width: 640px) {
+    // overflow-x: hidden;
+    .container {
+      padding-bottom: 300px;
+
+      > .menu-bar {
+        line-height: 40px;
+
+        #header__menu_bar_1 {
+          margin-left: -89px;
+          margin-top: 10px;
+          background-size: 115px auto;
+          background-position: 90px 0;
+        }
+
+        #header__menu_bar_2 {
+          .list {
+            padding-top: 0;
+
+            .item {
+              display: none;
+            }
+
+            .item:hover {
+              opacity: 0.5;
+              cursor: pointer;
+            }
+
+            .sidebar-overlay {
+              &.button {
+                .btn;
+                .text-white;
+
+                margin-left: -140px;
+              }
+            }
+          }
+        }
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+        left: 0;
+        top: 100px;
+      }
+
+      #header__body {
+        top: 50px;
+
+        #header__body__title {
+          padding-top: 50px;
+          font-size: 36px;
+        }
+
+        #header__body__text {
+          font-size: 24px;
+        }
+
+        #header__body__button {
+          margin-top: 16px;
+        }
+
+        img {
+          top: 456px;
+        }
       }
     }
   }
