@@ -19,22 +19,20 @@
     font-size: 18px;
 
     #footer__copyright {
-      .pull-left;
-
+      float: left;
       padding-top: 65px;
       letter-spacing: -0.1px;
     }
 
     #footer__menu {
-      .pull-right;
-
+      float: right;
       padding-top: 65px;
 
       ul {
         list-style-type: none;
 
         li {
-          .pull-left;
+          float: left;
 
           a {
             .text-bali-hai;
@@ -74,6 +72,44 @@
                 height: auto;
               }
             }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: @screen-xs-max) {
+  #footer {
+    > .container {
+      .text-center;
+
+      > #footer__copyright {
+        float: none;
+      }
+
+      > #footer__menu {
+        float: none;
+
+        > .list-1 {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          padding-left: 0;
+
+          > .item {
+            margin-right: 0 !important;
+            float: none;
+          }
+        }
+
+        > .list-2 {
+          display: flex;
+          justify-content: space-around;
+          padding-left: 0;
+
+          > .item {
+            margin-right: 0;
           }
         }
       }
