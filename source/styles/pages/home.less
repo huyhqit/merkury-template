@@ -627,8 +627,21 @@
 
   @media screen and (max-width: 768px) {
     .section {
+      &#section_1 {
+        > .container {
+          > .list {
+            padding-top: 100px;
 
-      &#section_1 {}
+            > .item {
+              margin-top: -50px;
+            }
+
+            > #section_1__item_1 {
+              padding-left: 15px;
+            }
+          }
+        }
+      }
 
       &#section_2 {
         > .container {
@@ -636,6 +649,9 @@
             > .item {
               > .description {
                 .text-center;
+                > .title {
+                  padding-top: 80px;
+                }
               }
 
               #section_2__picture {
