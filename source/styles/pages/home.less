@@ -297,12 +297,6 @@
           position: absolute;
           left: 137px;
           top: 344px;
-
-          img {
-            height: 430px;
-            width: auto;
-            z-index: 1;
-          }
         }
 
         > .object {
@@ -673,13 +667,39 @@
           }
         }
       }
-      &#section_4 {}
+
+      &#section_4 {
+        > .container {
+          > #section_4__picture {
+            .img-responsive;
+
+            left: 0;
+            top: 680px;
+          }
+
+          > .object {
+            &#section_4__object_1 {
+              img {
+                width: 90%;
+              }
+            }
+
+            &#section_4__object_2 {
+              top: 450px;
+
+              img {
+                width: 180%;
+              }
+            }
+          }
+        }
+      }
       &#section_5 {}
     }
   }
 
   #overlay {
-    // display: none;
+    display: none;
     position: absolute;
     top: 0;
     left: 0;
