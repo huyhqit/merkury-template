@@ -44,30 +44,34 @@
 
             <div class="section" id="section_2">
                 <div class="container">
-                    <div class="description"><!--@FIXED: If you want to use .list, it should wrap 2 text blocks with checkbox only-->
-                        <div class="title">All You need is a browser!</div>
-                        <div class="text" id="section_2__text_1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        <br>
-                        tempor incididunt ut labore et dolore magna aliqua.
-                        </div>
-                        <div class="text" id="section_2__text_2">
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-                            <br>
-                            ut aliquip ex ea commodo consequat.
-                        </div>
-                        <div class="checkbox">
-                            <img src='../../assets/images/pages/home/section_5__check_true.png' alt="">
-                            <span> Lorem ipsum dolor sit amet consectetur</span>
-                        </div>
-                        <div class="checkbox">
-                            <img src='../../assets/images/pages/home/section_5__check_true.png' alt="">
-                            <span>Ut enim ad minim veniam quis nostrud</span>
-                        </div>
-
+                  <div class="list">
+                    <div class="item"><div class="description"><!--@FIXED: If you want to use .list, it should wrap 2 text blocks with checkbox only-->
+                      <div class="title">All You need is a browser!</div>
+                      <div class="text" id="section_2__text_1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                      <br>
+                      tempor incididunt ut labore et dolore magna aliqua.
+                      </div>
+                      <div class="text" id="section_2__text_2">
+                          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                          <br>
+                          ut aliquip ex ea commodo consequat.
+                      </div>
+                      <div class="checkbox">
+                          <img src='../../assets/images/pages/home/section_5__check_true.png' alt="">
+                          <span> Lorem ipsum dolor sit amet consectetur</span>
+                      </div>
+                      <div class="checkbox">
+                          <img src='../../assets/images/pages/home/section_5__check_true.png' alt="">
+                          <span>Ut enim ad minim veniam quis nostrud</span>
+                      </div>
                     </div>
-                    <div id="section_2__picture">
-                        <img src='../../assets/images/pages/home/section_2__image.png' alt=''>
+                  </div>
+                    <div class="item">
+                      <div id="section_2__picture">
+                          <img src='../../assets/images/pages/home/section_2__image.png' alt=''>
+                      </div>
                     </div>
+                  </div>
                 </div>
 
             </div>
@@ -75,10 +79,11 @@
             <div class="section" id="section_3">
                 <div class="container">
                     <div class="list">
+                        <img class="line-item" src='../../assets/images/pages/home/section_3__line.png' alt=''>
                         <div class="item" id="section_3__item_1">
                             <img src='../../assets/images/pages/home/section_3__task.png' alt=''>
                         </div>
-                        <img class="line-item" src='../../assets/images/pages/home/section_3__line.png' alt=''>
+
                         <div class="item" id="section_3__item_2">
                             <div class="title">Drag & Drop</div>
                             <div class="text" id="section_3__item_2__text_1">Lorem ipsum dolor sit amet,

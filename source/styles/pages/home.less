@@ -110,72 +110,80 @@
 
       > .container {
         position: relative;
-        padding-bottom: 223px;
+        padding-bottom: 83px;
 
-        > .description {
-          .pull-left;
+        > .list {
+          .row;
 
-          > .title {
-            .font-roboto-thin;
+          > .item {
+            .make-md-column(6);
 
-            padding-top: 220px;
-            font-size: 60px;
-          }
+            > .description {
+              .pull-left;
 
-          > .text {
-            .text-bali-hai;
+              > .title {
+                .font-roboto-thin;
 
-            margin: 32px 0;
-            font-size: 18px;
-            line-height: 31px;
+                padding-top: 220px;
+                font-size: 60px;
+              }
 
-            &#section_2__text_1 {
-              letter-spacing: -0.1px;
+              > .text {
+                .text-bali-hai;
+
+                margin: 32px 0;
+                font-size: 18px;
+                line-height: 31px;
+
+                &#section_2__text_1 {
+                  letter-spacing: -0.1px;
+                }
+
+                &#section_2__text_2 {
+                  margin-top: -5px;
+                  margin-bottom: 36px;
+                  line-height: 31px;
+                  letter-spacing: -0.1px;
+                }
+              }
+
+              > .checkbox {
+                .text-dodger-blue;
+
+                margin: 53px 2px 52px 2px;
+                letter-spacing: -0.1px;
+                font-size: 22px;
+
+                img {
+                  width: 28px;
+                  height: auto;
+                  vertical-align: middle;
+                }
+
+                span {
+                  margin-left: 10px;
+                }
+              }
+
+              > .checkbox:last-child {
+                margin-top: -22px;
+
+                img {
+                  margin-top: -3px;
+                }
+              }
             }
 
-            &#section_2__text_2 {
-              margin-top: -5px;
-              margin-bottom: 36px;
-              line-height: 31px;
-              letter-spacing: -0.1px;
+            #section_2__picture {
+              // position: absolute;
+              padding-top: 160px;
+              margin-left: -60px;
+
+              img {
+                width: 1047px;
+                height: auto;
+              }
             }
-          }
-
-          > .checkbox {
-            .text-dodger-blue;
-
-            margin: 53px 2px 52px 2px;
-            letter-spacing: -0.1px;
-            font-size: 22px;
-
-            img {
-              width: 28px;
-              height: auto;
-              vertical-align: middle;
-            }
-
-            span {
-              margin-left: 10px;
-            }
-          }
-
-          > .checkbox:last-child {
-            margin-top: -22px;
-
-            img {
-              margin-top: -3px;
-            }
-          }
-        }
-
-        #section_2__picture {
-          position: absolute;
-          right: -250px;
-          top: 161px;
-
-          img {
-            width: 1047px;
-            height: auto;
           }
         }
       }
@@ -192,7 +200,7 @@
 
       > .container {
         position: relative;
-        padding-bottom: 185px;
+        padding-bottom: 10px;
 
         > .list {
           margin: 100px 0;
@@ -209,8 +217,9 @@
 
             &#section_3__item_1 {
               img {
-                left: -146px;
-                top: 61px;
+                position: static;
+                margin-left: -160px;
+                margin-top: 60px;
               }
             }
 
@@ -288,12 +297,6 @@
           position: absolute;
           left: 137px;
           top: 344px;
-
-          img {
-            height: 430px;
-            width: auto;
-            z-index: 1;
-          }
         }
 
         > .object {
@@ -613,6 +616,136 @@
   }
 
   position: relative;
+
+  @media screen and (max-width: 640px) {
+    .section {
+
+      &#section_1 {}
+
+      &#section_2 {
+        > .container {
+          > .list {
+            > .item {
+              > .description {
+                .text-center;
+              }
+
+              #section_2__picture {
+                img {
+                  width: 100%;
+                  height: auto;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      &#section_3 {
+        > .container {
+          > .list {
+            > .item {
+              &#section_3__item_1 {
+                img {
+                  margin: auto;
+                  width: 100%;
+                  height: auto;
+                }
+              }
+
+              &#section_3__item_2 {
+                // .text-center;
+                padding-top: 0;
+
+                > #section_3__item_2__icon {
+                  img {
+                    top: 390px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      &#section_4 {
+        > .container {
+          > #section_4__picture {
+            .img-responsive;
+
+            left: 0;
+            top: 680px;
+          }
+
+          > .object {
+            &#section_4__object_1 {
+              img {
+                width: 90%;
+              }
+            }
+
+            &#section_4__object_2 {
+              top: 450px;
+
+              img {
+                width: 180%;
+              }
+            }
+          }
+        }
+      }
+
+      &#section_5 {
+        > .container {
+          > .cards {
+            > .card {
+              > .text {
+                > .list {
+                  > .item {
+                    &.do {
+                      background-position: 80px 8px;
+                    }
+
+                    &.dont {
+                      background-position: 80px 8px;
+                    }
+                  }
+                }
+              }
+
+              &#section_5__card_3 {
+                > .text {
+                  > .list {
+                    > .item {
+                      &.do {
+                        background-position: 100px 8px;
+                      }
+
+                      &.dont {
+                        background-position: 100px 8px;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+
+          > #section_5__button {
+            &::before {
+              width: 160px;
+              left: -90px;
+            }
+
+            &::after {
+              width: 160px;
+              left: 280px;
+            }
+          }
+        }
+      }
+    }
+  }
 
   #overlay {
     display: none;
