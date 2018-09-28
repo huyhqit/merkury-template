@@ -225,7 +225,7 @@
                 <a id="section_5__button" class="button" href="#">Join now!</a>
             </div>
         </div>
-        <a onclick="topFunction()" id="back_to_top_botton" href='#' title="Go to top">Top</a>
+        <a id="back_to_top_botton" href='#' title="Go to top">Top</a>
         <div id="overlay">
             <img src='./../../assets/images/demo/pages/home/overlay.png' />
         </div>

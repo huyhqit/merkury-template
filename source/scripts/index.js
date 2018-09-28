@@ -5,6 +5,10 @@ import '../styles/style.less';
 
 // includes
 
+// variables
+
+const $backToTopButton = $('#back_to_top_botton');
+
 // application
 
 const applicationModules = [
@@ -30,13 +34,17 @@ $(() => {
   application.start();
 });
 
+$(window).scroll(function () {
+  if ($(this).scrollTop() >= 400) {
+    $backToTopButton.fadeIn(500);
+  } else {
+    $backToTopButton.fadeOut(500);
+  }
+ });
 
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-    if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
-        document.getElementById("back_to_top_botton").style.display = "block";
-    } else {
-        document.getElementById("back_to_top_botton").style.display = "none";
-    }
-}
+$backToTopButton.click((event) => {
+  event.preventDefault();
+  $('body,html').animate({
+    scrollTop: 0,
+  }, 500);
+ });
