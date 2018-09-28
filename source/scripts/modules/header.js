@@ -27,3 +27,12 @@ module.exports = function (sandbox) {
     destroy: () => {},
   };
 };
+
+$('#open_sidebar_overlay_button').on('click', function(event) {
+  event.preventDefault();
+  document.getElementById("header__responsive_menu").style.width = "250px";
+})
+
+$('#header__responsive_menu__close_button').on('click', function(event) {
+  document.getElementById("header__responsive_menu").style.width = '0';
+})
