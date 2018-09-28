@@ -27,3 +27,18 @@ module.exports = function (sandbox) {
     destroy: () => {},
   };
 };
+
+const $openSidebarOverlayButton = $('#header_menu_bar_2__sidebar_overlay');
+const $headerResponsiveMenu = document.getElementById('header__responsive_menu')
+const $headerResponsiveMenuCloseButton = $('#header__responsive_menu__close_button');
+
+
+
+$openSidebarOverlayButton.on('click', function(event) {
+  event.preventDefault();
+  $headerResponsiveMenu.style.width = "250px";
+})
+
+$headerResponsiveMenuCloseButton.on('click', function(event) {
+  $headerResponsiveMenu.style.width = '0';
+})
