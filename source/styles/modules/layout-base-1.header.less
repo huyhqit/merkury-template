@@ -176,7 +176,13 @@
                 .btn;
                 .text-white;
 
-                margin-left: -140px;
+                margin-top: 5px;
+                margin-left: -150px;
+                font-size: 24px;
+              }
+
+              &.button:hover {
+                .text-dodger-blue;
               }
             }
           }
@@ -187,7 +193,7 @@
           height: 100%;
           width: 0;
           position: fixed;
-          z-index: 1;
+          z-index: 99;
           top: 0;
           right: 0;
           background-color: #111;
@@ -196,16 +202,20 @@
           transition: 0.5s;
 
           a {
-            padding: 8px 8px 8px 32px;
+            .text-white;
+            .text-center;
+
+            padding: 8px;
+            margin: 5px;
             text-decoration: none;
-            font-size: 25px;
-            color: #818181;
+            font-size: 18px;
             display: block;
-            transition: 0.3s;
+            transition: 0.5s;
+            border-bottom: 1px @color-dodger solid;
           }
 
           a:hover {
-            color: #f1f1f1;
+            .text-dodger-blue;
           }
 
           .close-button {
@@ -214,6 +224,7 @@
             right: 25px;
             margin-left: 50px;
             font-size: 36px;
+            border: none;
           }
         }
       }
