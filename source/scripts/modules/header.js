@@ -28,11 +28,19 @@ module.exports = function (sandbox) {
   };
 };
 
-$('#open_sidebar_overlay_button').on('click', function(event) {
+// variables
+
+const $openSidebarOverlayButton = '#open_sidebar_overlay_button';
+const $headerResponsiveMenu = '#header__responsive_menu';
+const $headerResponsiveMenuCloseButton = '#header__responsive_menu__close_button';
+
+
+
+$($openSidebarOverlayButton).on('click', function(event) {
   event.preventDefault();
-  document.getElementById("header__responsive_menu").style.width = "250px";
+  document.getElementById($headerResponsiveMenu).style.width = "250px";
 })
 
-$('#header__responsive_menu__close_button').on('click', function(event) {
-  document.getElementById("header__responsive_menu").style.width = '0';
+$($headerResponsiveMenuCloseButton).on('click', function(event) {
+  document.getElementById($headerResponsiveMenu).style.width = '0';
 })
